@@ -1,0 +1,2 @@
+Todays goal is to study the 'You Don't Know JS' chapter on Promises. From what I understand now, promises are a way to write async code in a more sequential manner while avoiding inversion of control as much as possible. I don't know the details yet though so i'm looking forward to learning more about it.
+
