@@ -1,3 +1,0 @@
-Okay so I would like to use this entry to help wrap my head around what needs to be accomplished in order to create a working weather app. I've linked up my base files, now I need to figure out exactly how I am going to organize my code. I am currently considering using the MVC approach and I believe I will need to configure webpack to bundle the modules together if I do that. I can write very basic styles until the functionality of the app is up and running, at which point I can configure sass for practice to write up the final css.
-
-I will need to write code that requests data from the openWeather API and then processes it into a workable format once received.

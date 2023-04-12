@@ -1,0 +1,14 @@
+Okay so I would like to use this entry to help wrap my head around what needs to be accomplished in order to create a working weather app. I've linked up my base files, now I need to figure out exactly how I am going to organize my code. I am currently considering using the MVC approach and I believe I will need to configure webpack to bundle the modules together if I do that. I can write very basic styles until the functionality of the app is up and running, at which point I can configure sass for practice to write up the final css.
+
+I have decided to use the MVC design pattern for this application.
+
+Model:
+
+- will have a method that fetches weather data from the API using a city name as input and converts the response to a responseData object.
+- The responseData object will be used to create a new instance of a weatherData class that extracts only the required data from the responseData object and stores it in a currentLocation variable. This currentLocation object can be saved in localStorage to ensure the data persists on refresh.
+- Can consider storing previously searched locations in an array to be used as presets. User will be shown a list and can select from their previous searches. Also stored using localStorage.
+
+View:
+
+Controller:
+
