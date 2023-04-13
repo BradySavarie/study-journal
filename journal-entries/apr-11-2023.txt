@@ -7,6 +7,7 @@ Model:
 - will have a method that fetches weather data from the API using a city name as input and converts the response to a responseData object.
 - The responseData object will be used to create a new instance of a weatherData class that extracts only the required data from the responseData object and stores it in a currentLocation variable. This currentLocation object can be saved in localStorage to ensure the data persists on refresh.
 - Can consider storing previously searched locations in an array to be used as presets. User will be shown a list and can select from their previous searches. Also stored using localStorage.
+- I also want to access the giphy API to display a gif that represents the current weather condition, so I will need a method to fetch each gif.
 
 View:
 
