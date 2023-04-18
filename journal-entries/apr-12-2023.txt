@@ -1,0 +1,17 @@
+To continue the last entry on how i intend on using the MVC design pattern for this app:
+
+Model:
+
+- will have a retrieveCurrentWeatherData() method that fetches weather data from the API using a city name as input and converts the response to a responseData object.
+- formatCurrentWeatherData() will use the responseData object to create a new instance of a weatherData class that extracts only the required data from the responseData object and stores it in a currentLocation variable in a useable format. 
+- storeCurrentWeather() can save the currentLocation object in localStorage to ensure the data persists on refresh.
+- storeLocationPreset() can store previously searched locations in an array to be put in localStorage and used as presets.
+- retrieveWeatherGifs() can access the giphy API to display a gif that represents the current weather condition.
+
+View:
+
+- displayCurrentWeatherData() method will render all of the current weather data
+- displayCurrentWeatherGif() method will render a gif based on the current weather condition
+- 
+
+Controller:
