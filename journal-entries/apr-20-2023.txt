@@ -25,3 +25,7 @@ each item doubles the steps required. Like the opposite of a logarithm basically
 
 O(N!) - Factorial Complexity
 the product of the sequence of n integers. gets out of hand very, very quick. Think of permutations, and how adding a single element to a set can drastically increase the number of permutations available for the new dataset compared to the last. 
+
+Boom!! Just finished up the time complexity module and I am pretty confident with the material. Time to dive in to space complexity.
+
+Side note: officially at 49% complete of the javascript path, halfway mark basically reached!! (future projects will prob take alot longer than anticipating as usual but whatever this is great progress regardless).
