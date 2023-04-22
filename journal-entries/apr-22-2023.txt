@@ -1,0 +1,8 @@
+I'm currently in a coffee shop and all of the required materials for the data structures & algorithms lesson that im' working on requires watching videos. I think I may focus on that this afternoon and instead practice writing some sorting algorithms for a little bit. I did merge sort the other day which was alot of fun so I think it would be beneficial to toss a few more of them into my tools. Sorting algorithms are definitely useful so i'm sure this will be a good thing to practice. Here is a list of the ones that i'd like to get some practice with:
+
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
