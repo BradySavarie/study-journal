@@ -6,3 +6,8 @@ I'm currently in a coffee shop and all of the required materials for the data st
 - Merge Sort
 - Quick Sort
 - Heap Sort
+
+Bubble Sort was pretty easy. Just a nested for loop that compares the value of 2 elements within the input array and swaps values if the first is larger.
+
+Insertion Sort was a little trickier for me but not too bad. Instead of having the maximum value bubble up through the unsorted array, the minimum value bubbles into position through the sorted array. It's better than bubble sort because you don't need to know the value of each element in the unsorted array in advance, instead elements can be inserted one at a time if necessary. 
+
