@@ -1,0 +1,2 @@
+I'm drilling the sorting algorithms again by memory in a starbucks right now. It's alot of fun.. can't help it. Yesterday I managed to do bubble sort, insertion sort, selection sort, and merge sort. Today i've done insertion sort by memory and I think i'm going to work on the others a little bit as well before proceeding with the odin project. It feels good to train my problem solving skills.
+
