@@ -1,0 +1,10 @@
+Well I just learned that commits in my javascript exercises folder don't get pushed to my github so unfortunately my streak has been broken! Bummer. Oh well.. i've still done the work haha. Today i've been working on the linked list project. It is pretty easy so far. All i'm doing is creating two classes that allow me to instantiate a linkedList object and a node object. I can put nodes into the list and use a bunch of different methods to make adjustments. Methods i've written so far include append, prepend, size, head, and tail.
+
+Append accepts a value and uses it to create a new node that is added to the end of the linkedList it is called on. It does this by starting at the head node and iterating through each node in the list to check if it's nextNode property is null. When it finds a node that matches this condition it knows that it has found the last node in the last. All I have to do at that point is change the pointer in that last node to the new node and update the lists tail value to the new node. Easy peasy. Prepend is simpler than that. it creates a new node, sets it's pointer to the head of the list, and then updates the head value.
+
+Both of the above methods have a safety condition that checks if the head is null, meaning the linkedList is empty. If so it sets head and tail value to the new node it creates. If I don't do this than I get a "can't read properties of null" error since the head and tail are initialized to null and the append/prepend methods need to use those values.
+
+Size was straightforward as well. Init a count variable at 0, starting at the head check if the next node value is null, if not increment count and update the node that is being checked to the next node.
+
+Head and tail methods quite literally just return the value of the head or tail in the list it called on. One-liner, nothing to it.
+
