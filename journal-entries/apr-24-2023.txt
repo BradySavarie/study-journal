@@ -8,3 +8,4 @@ Size was straightforward as well. Init a count variable at 0, starting at the he
 
 Head and tail methods quite literally just return the value of the head or tail in the list it called on. One-liner, nothing to it.
 
+TECHNICALLY it's the 25th now but whatever, I just finished up the linked list lesson. That was awesome. I definitely have a good grasp on the data structure now and I was able to practice problem solving skills and brush up on my es6 class syntax while writing all of the methods and properties. Pretty easy stuff, but i'm glad I went through it because I doubt i'll have the opportunity to really work with linked lists in the near future considering they are not necessary in Javascript. Arrays are always useable instead since storing big arrays doesn't provide any memory problems like they may in other languages.

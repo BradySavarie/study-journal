@@ -1,0 +1,1 @@
+Damnit, I haven't had much free time today at all to work on coding. It's 10pm and i've just finished up everything I needed to do for the day so I guess now is the time to get started haha. On the agenda is learning about balanced binary search trees and then starting to implement one using javascript. Should be fun.
