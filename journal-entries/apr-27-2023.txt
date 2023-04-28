@@ -1,0 +1,1 @@
+Okay, tonights mission is to write the delete function for the binary search tree. There a 3 different cases that I need to consider: root is a leaf node, root has 1 child, and leaf has 2 children. 
