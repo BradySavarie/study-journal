@@ -19,3 +19,6 @@ Anyways though i'll run through the last functions I wrote. Basically it is dept
     - repeat last step but for right subtree
     - return results array
 Since I want this function to also be able to use a callback if added a line following the pushing of each root node value that checks if the callback is truthy and if so sends the corresponding root ode into it as a parameter.
+
+Height and depth are now taken care of. All i've got left to do is create the isBalanced and rebalance functions and i'm all set. Maybe write up the driver scripts as requested to make sure evrything does in fact work well, although I have been testing so I am confident in what is there. Great productive day.
+
