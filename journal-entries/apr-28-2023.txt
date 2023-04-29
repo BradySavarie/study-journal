@@ -8,4 +8,14 @@ NICE. I got the method working (with alot of help from external resources, but s
 
 That was awesome, what a fun little problem to sort out. Recursion is mind-bending in a fantastic way. Time to move on to some more methods.
 
+Now i've written find and levelOrder methods as well. Find was simple, literally just recurse through the tree same as the other methods and compare the node values against the input until a null node is reached. LevelOrder was more interesting. I used an array to create a queue with the root as the first and only element. A while loop would remove the first element in the queue using the shift() method and push it's value into a results array, then check if it's left and right children have values and push those nodes into the queue. This continues until the queue length is no longer greater than 0. A callback parameter is intialized to null, but an if statement passes the current node in to the callback on each loop if it is not equal to null. Pretty neat stuff.
 
+Just finished up writing preorder, inorder, and postorder. That should be the hardest parts completed. I'm enjoying working with this data structure, I do admit though that is is humbling me haha. I've needed to use quite a lot of help sorting out the logic behind these methods. I'm considering writing them again from memory just so I can be sure I really do know them, however time is a valuable resource right now so maybe it's better to keep moving and just knowing that I do understand how to approach solving these problems when the need arises regardless of if I need to research implementation details again. Hm, i'll think on that.
+
+Anyways though i'll run through the last functions I wrote. Basically it is depth level traversal that prints the node values to the console in different orders. Preorder prints the root node value first before moving to the left and then the right, inorder prints root node after the left but before the right, and post order prints the root node last. Implementing this was recursion again, setting a base to case to check if the root is null and returning it if so. I used a result array to store the values for printing when the recursion is done. depending on which of these function are being run the following steps are taken in a different order (the following is for preorder):
+    - push root value into results array
+    - check if left child exists
+        - if so, call itself recursively with the left node as the root and push the return value into the results array
+    - repeat last step but for right subtree
+    - return results array
+Since I want this function to also be able to use a callback if added a line following the pushing of each root node value that checks if the callback is truthy and if so sends the corresponding root ode into it as a parameter.
