@@ -16,4 +16,4 @@ Step 1: Given a coordinate pair representing a position on the chessboard, creat
 
 Step 2: Create an adjacency list that contains the coordinates of all possible moves that a knight could make for each square on an 8x8 chessboard.
 
-Step 3: 
+Step 3: Create a function that returns an array of coordinates representing the shortest path a knight could take to traverse from a given start point to a given end point.
