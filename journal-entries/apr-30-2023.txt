@@ -8,5 +8,12 @@ The search function itself will begin by initializing a while loop that runs whi
 
 The above steps repeat until a match is found and the while loop breaks. At this point an empty path array is initialized to store the parent coordinates of each vertex starting at the end coordinate. a currentVertex variable is initialized to the end coordinates. while the currentVertex is not null, a while loop unshifts the currentVertex into the path array and overwrites the currentVertex value to that vertex's parent coordinates. Eventually this chain ends and the result is a path array that stores the shortest path. This path is then finally returned.
 
-Damn, that is a beautiful progam. I may look back at this entry one day and think "ha. simple" but at the moment this has kind of blown my mind how cool it is. 
+Damn, that is a beautiful progam. I may look back at this entry one day and think "ha. simple" but at the moment this has kind of blown my mind how sleek it is.
 
+Okay, I have the concept broken down real good now. Time to actually implement in in javascript.
+
+Step 1: Given a coordinate pair representing a position on the chessboard, create a function that generates an array of coordinates that a knight could possibly move to.
+
+Step 2: Create an adjacency list that contains the coordinates of all possible moves that a knight could make for each square on an 8x8 chessboard.
+
+Step 3: 
