@@ -17,3 +17,14 @@ Step 1: Given a coordinate pair representing a position on the chessboard, creat
 Step 2: Create an adjacency list that contains the coordinates of all possible moves that a knight could make for each square on an 8x8 chessboard.
 
 Step 3: Create a function that returns an array of coordinates representing the shortest path a knight could take to traverse from a given start point to a given end point.
+
+Substeps of Step 3
+
+    Step 1: Create a 'visited' array that stores the visited state of each coordinate on the 8x8 chessboard in boolean values. True if knight has landed on it previously, false otherwise.
+
+    Step 2: Create a 'predecessors' array that stores the coordinate that a knight was on before it moved to the current coordinate.
+
+    Step 3: Implement a breadth-first traversal that updates the visited status of the current coordinate, stores the predecessor to the current coordinate, and checks if the current coordinate is equal to the end coordinate. 
+
+
+Unrelated to the above, I just went through my github repos and noticed that i've been slacking on keeping them at a high quality. I want to make it a point to go back and ensure that the readme's are completed, that each webdev project has a gh pages link for potential employers to follow, and are generally better organized. I am still considering moving all of my data structures and algorithm repos into a single repo for better organization and I want to move the components repo into the projects directory.
