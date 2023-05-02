@@ -1,0 +1,2 @@
+I'm currently at a coffee shop about to get going on the intermediate git section of the odin project. Yesterday I looked further into Array.from() and iterables to make sure I understood what exactly I was doing while creating the adjacencyList and predecessors arrays in the knights travails project. 
+
