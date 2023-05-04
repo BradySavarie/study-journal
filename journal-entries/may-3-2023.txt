@@ -1,0 +1,1 @@
+I learned about the revert command just now. It creates a new commit that 'reverts' (or undoes) all of the changes in a specified previous commit. This keeps a previous commit in the repo history without allowing it's faulty changes to be present in the code anymore. This is good for fixing a bug that was committed and needs to be removed without affecting the history.
