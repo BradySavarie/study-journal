@@ -1,1 +1,12 @@
 I learned about the revert command just now. It creates a new commit that 'reverts' (or undoes) all of the changes in a specified previous commit. This keeps a previous commit in the repo history without allowing it's faulty changes to be present in the code anymore. This is good for fixing a bug that was committed and needs to be removed without affecting the history.
+
+I just read a short section explaining how branches are pointers. Not new to me - after working with linked lists I can see the type of structure that is being created with git repos. Good for that to be confirmed though. 
+
+I also read a few articles on merge conflicts. It explained that a conflict arises when changes have been made on two branches that you are trying to merge together and that cannot both exist at the same time. For example, different changes were made on the same line of code in the same file. Obviously both cannot exist at once, so you need to review the merge conflict and decide if you are keeping changes from commit a, commit b, or a combination of both. I'm glad to have read this as it clears up what feels like an intimidating problem to run into right now. Not so scary after all. The other articles explained how to resolve conflicts using either github or the command line. Github can only resolve same line conflicts, while the command line can handle more involved cases. Both are not overly complicated processes and when the need arises I can review github's documentation to show me which steps to take again.
+
+My assignment at the moment on the odin project is to read through this really awesome website called 'Think Like (a) Git'. It describes git from the bottom up in a supposedly well-written way. I'm going to go dive into that now.
+
+REFERENCES MAKE COMMITS REACHABLE. This has been drilled into my head now. It just means that if I have a reference to a past commit then im good, I can access the history. A branch is just a reference. Therefore, if I create a new branch before trying some git trickery than I will always be able to reach the commit regardless. git branch <new-branch> is a save button basically. Use it before battling bosses.
+
+
+

@@ -1,0 +1,5 @@
+So far today I've read 2 articles - the first about rebasing and the second about reset. The rebasing article was a recap on the functionality of it and honestly was kind of ovewhelming. I'm going to look for some more resoures in addition to what TOP is providing to make sure I understand how to properly use these commands. I believe I will need to spend more time on this than I anticipated because I really want to ensure I know how to use these commands.
+
+I'm going to explain rebase and reset in my own words to see how well I understand it and then go try and fill in the gaps tonight. Hopefully I will have the first lesson complete. 
+
+Rebase is a command thats main purpose is to combine the history of two git branches. 
