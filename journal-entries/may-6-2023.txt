@@ -1,0 +1,8 @@
+I got a practice test written yesterday with Jest. Not so difficult, and I didn't even need to install and configure Babel as expected to get it working. Today's goal is to work through the 4 remaining practice functions for testing, and then potentially begin the next git lesson. Let's gooo!
+
+I just wrote a reverse string function using built-in js methods split, reverse, and join. I wrote a test for it first that expects 'brady' to be 'ydarb'. It helped me trouble shoot the code pretty well by telling me the result vs expect output - it's like having a console.log ready to go at all times. Love it so far. 
+
+Now i've written a test suite that checks if 4 basic methods (add, subtract, multiply, divide) on a calculator object work. Pretty easy, even though I somehow got a little tripped up on creating an object that contained methods. I've been getting too used to class syntax.
+
+Time to write a caesar cipher now. It should take a string and a shift factor and then return a string that has been shifted by that amount.
+
