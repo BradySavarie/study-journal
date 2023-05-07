@@ -13,10 +13,3 @@ Okay caesar cipher is good to go, all tests pass. I'm getting the hang of testin
 To clarify, I had to normalize the ascii character values to be able to wrap the code around the alphabet using a mod calculation. Since ascii values for letters start at 65 for uppercase and 97 for lowercase, if I was to take the mod of these I would not be wrapping around a 26 letter alphabet. Thats why i first took the difference away to work with a 26 character range starting from 0, then doing the shift and mod calc from there, and finally adding the difference back in to find the correct ascii character. Kind of a tricky concept at first but it results in what I think is a clean version of the caesar cipher.
 
 Nice, just wrote the last practice test pretty easily. I only had to write an analyzeArray function that returned an object with min, max, average, and length properties that are calculated based on an input array. Easy stuff but it confirmed that I am getting this whole testing thing down. I would like to move on from the basics and explore the variety of matchers that are available however I think I may continue on the git section before doing that.
-
-
-
-
-
-
-
