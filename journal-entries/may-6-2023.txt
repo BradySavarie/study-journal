@@ -4,5 +4,19 @@ I just wrote a reverse string function using built-in js methods split, reverse,
 
 Now i've written a test suite that checks if 4 basic methods (add, subtract, multiply, divide) on a calculator object work. Pretty easy, even though I somehow got a little tripped up on creating an object that contained methods. I've been getting too used to class syntax.
 
-Time to write a caesar cipher now. It should take a string and a shift factor and then return a string that has been shifted by that amount.
+Time to write a caesar cipher now. It should take a string and a shift factor and then return a string that has been shifted by that amount. 
+
+After messing around with hard-coding alphabet arrays I think i'm going to take an approach that utilizes each character is the plaintext's ascii value to produce a cipher.
+
+Okay caesar cipher is good to go, all tests pass. I'm getting the hang of testing for sure. In regards to the function itself, i passed in a string and a shift value. an empty cipher string is initialized. For each character in the input string I stored the character in a variable. I used a regex to test if it is a letter (upper or lower), and if so I used the charCodeAt() method to store its ascii code. if the code is within ascii lowercase range I calculated its new charCode by subtracting the lowercase a ascii value from it, adding the shift value to the new normalized value, took mod 26 of that number, and added back in the lowercase a ascii value. This process provided a new ascii code that I converted into a string character and appended to the cipher. This process repeated for each letter and the cipher string was returned at the end.
+
+To clarify, I had to normalize the ascii character values to be able to wrap the code around the alphabet using a mod calculation. Since ascii values for letters start at 65 for uppercase and 97 for lowercase, if I was to take the mod of these I would not be wrapping around a 26 letter alphabet. Thats why i first took the difference away to work with a 26 character range starting from 0, then doing the shift and mod calc from there, and finally adding the difference back in to find the correct ascii character. Kind of a tricky concept at first but it results in what I think is a clean version of the caesar cipher.
+
+Nice, just wrote the last practice test pretty easily. I only had to write an analyzeArray function that returned an object with min, max, average, and length properties that are calculated based on an input array. Easy stuff but it confirmed that I am getting this whole testing thing down. I would like to move on from the basics and explore the variety of matchers that are available however I think I may continue on the git section before doing that.
+
+
+
+
+
+
 
