@@ -4,7 +4,7 @@ I just wrote a reverse string function using built-in js methods split, reverse,
 
 Now i've written a test suite that checks if 4 basic methods (add, subtract, multiply, divide) on a calculator object work. Pretty easy, even though I somehow got a little tripped up on creating an object that contained methods. I've been getting too used to class syntax.
 
-Time to write a caesar cipher now. It should take a string and a shift factor and then return a string that has been shifted by that amount. 
+Time to write a caesar cipher now. It should take a string and a shift factor and then return a string that has been shifted by that amount.
 
 After messing around with hard-coding alphabet arrays I think i'm going to take an approach that utilizes each character is the plaintext's ascii value to produce a cipher.
 
