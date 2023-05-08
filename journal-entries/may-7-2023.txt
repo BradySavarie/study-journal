@@ -1,0 +1,1 @@
+Last night I watched a few pretty lengthy videos in a series about mocking. I see the purpose of it for sure, however i'm about to dive into why it may not be appropriate to use it for many situations. I will report back with my findings haha.
