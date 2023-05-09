@@ -1,0 +1,10 @@
+Today I finished up the unit testing module that focused on mocking. I feel like there was quite alot of information to digest in the TDD section in general and i'd like to start practicing to ensure that as much of it as possible sticks in my head. 
+
+To recap the past lessons learning outcomes:
+
+- I know what it means for code to be tightly coupled, and I feel like I am a little bit better at identifying patterns that may result in it (still require alot of practice to learn how to develop code that is not tightly coupled though).
+- I understand what pure functions are and how they can be helpful in the context of testing. 
+- I know what mocking is and when it may be appropriate to make use of mock functions. 
+- I recognize that too much mocking can be a bad thing as it is an indication that code is too tightly coupled, and time/resources can be better spent on redesigning the code as opposed to writing elaborate mocks.
+- I know what should and should not actually be tested in my code, and I can identify the differences between incoming/self-sent/outgoing queries and commands. 
+- I've read through the Jest docs and started getting acquainted with their setup and teardown hooks as well as their built-in mock functions. These I will definitely be needing practice with, however I am aware of their existence and potential use cases so that I can try them out next time the opportunity arises.
