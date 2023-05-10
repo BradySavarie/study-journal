@@ -8,3 +8,7 @@ To recap the past lessons learning outcomes:
 - I recognize that too much mocking can be a bad thing as it is an indication that code is too tightly coupled, and time/resources can be better spent on redesigning the code as opposed to writing elaborate mocks.
 - I know what should and should not actually be tested in my code, and I can identify the differences between incoming/self-sent/outgoing queries and commands. 
 - I've read through the Jest docs and started getting acquainted with their setup and teardown hooks as well as their built-in mock functions. These I will definitely be needing practice with, however I am aware of their existence and potential use cases so that I can try them out next time the opportunity arises.
+- Finally, i've briefly reviewed how to configure Webpack to work with Jest. 
+
+I've decided to move forward and begin the Battleship project. I am anticipating this to take a significant chunk of time to get done correctly, so I may also take a short break while working on it to complete the remaining git lesson. This should be a nice way to keep things interesting if I get stuck on battleship. 
+

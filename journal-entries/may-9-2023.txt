@@ -1,0 +1,18 @@
+Okay so i've put a little bit of thought into how I would like to approach the battleship project and I think I have a general idea on how to get started. I want to try my best to design loosely coupled code so I am going to divide this project up into as many modules as I can justify. I am going to start with the ship and gameboard modules. Ship will be pretty short, all I need it to do is allow for instantiating ship objects in the gameboard module that have ready-to-use methods. The gameboard module itself will be a little bit more complicated. It will be a factory (or class) that creates a board, initializes each cell in the board to null, and has a method that places ships at a designated coordinate. 
+
+When each ship is created, it will be stored as an object in a variable that is named after the type of ship that it is (based on its length). These ship objects will then be stored together in a ships array. The gameboard will have a placeShip() method that inserts the index value of the ship being placed into the coordinates on the board that the ship will use up. This way when the cell is evaluated for a hit later I will be able to immediately reference which ship it was by looking at the corresponding index in the ship array.
+
+That's were i'm at so far with the logic. I also need to decide which dependencies I would like to install and go ahead and configure everything. I know that I want this project to be modular, therefore I will need Webpack for bundling. I would like to get some solid practice in with testing so Jest will also need to be installed. I want linting to be active as well so ESlint will be necessary. i'm still deciding whether or not I would like to proceed with sass or tailwind for the css portion of this project. Maybe I can even look into bootstrap to see what that's all about.. hm. Idk if it's better to develop an existing skillset or learn a new one. For styling I would say I feel the most comfortable at the moment using vanilla css and/or tailwind. Sass has lots of unexplored territory still that I would like to get acquainted with. Bootstrap is entirely new, so the question is should i aim for breadth or depth of knowledge.
+
+Once I get a dev job I am willing to bet that I will have to adapt to new technology regardless, and depth of knowledge will come with increased exposure to the things I use in said job. Maybe focusing on being well-rounded is the better option for now so I can have a good familiarity with as many options available to me as I reasonably can. I am going to explore boostrap for this project and see what I can learn from a component based styling approach.
+
+In addition to this, Typescript has really been bouncing around in my head lately and I am also considering getting a jump on learning it. Doing so will make this project the most complex that i've worked on for sure as I will be learning a ton of new stuff. This could potentially be an awesome idea but i'm not going to lie it is a little intimidating. Fear is good, whatever. I'll configure it and do my best to get to grips with using it. React is coming next so i'm expecting to get bogged down learning that for awhile anyways, may as well get this typescript thing going now while I have a solid opportunity to do so.
+
+Okay, so I need to configure:
+    - Webpack for bundling
+    - Jest for testing
+    - ESlint for linting
+    - Bootstrap for styling
+    - Typescript for programming
+
+Lmao where do I start?! Let's go with ESlint, easy win.
