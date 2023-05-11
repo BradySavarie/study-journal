@@ -16,3 +16,13 @@ Okay, so I need to configure:
     - Typescript for programming
 
 Lmao where do I start?! Let's go with ESlint, easy win.
+
+Alright ESlint is good to go I believe. The added complexity in this case was setting up a typescript specific configuration. Rather than use the airbnb style guide that is setup for linting vanilla javasript, I opted for the standard-with-typescript guide as a base config and extended it with the eslint-typescript/recommended plugin that supposedly contains some more specific rules. I need to learn more about which rules are being used vs not used to truly understand the benefit of this, but hey it seems like a logical enough approach right now. I extended it further to ensure the prettier rules are applied last, and I also added the typescript parser so eslint understands any typescript code that it see's.
+
+I think the next logical step here is just figuring out how to configure and make use of typescript. Once that's done I can get going on Jest, and then boostrap, and then finally get webpack properly configured to handle the new assortment of dependencies.
+
+I went on a side mission to learn a bit more about Typescript. I'm much less intimidated and feel excited now about learning the tool, in fact I think static typing will be very beneficial for helping me think about programming since it forces me to make more intentional decisions on input and output value types. I have typescript installed but not yet configured. I need to learn how to configure it properly next. I have looked in to configuring it with Webpack though and it's not so bad. Webpack handles the compiling itself with the ts-loader so it really just comes down to an extra build step which is no biggie.
+
+I also spent a bit more time researching the MVC design pattern as I have a feeling it will apply well to this particular application. I decided to organize my src directory into models, views, and controllers sub-directories and see how that serves me. Good practice nonetheless.
+
+Side note: I love this whole journalling thing alongside learning to program. It's such a great way to organize my thoughts and ensure I am actually comprehending the topics that I am studying. I bet it will be cool to look back on and read old entries as well. I am noticing that I can get the thoughts out of my head and into this journal quicker now as I get more used to writing things down. Perhaps a little uncomfortable still with making this public but at the end of the day my guess is that the only people reading these entries would be future me and maybe someone who is considering hiring me. Prob can't hurt to let them see what i've been up to.
