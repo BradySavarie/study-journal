@@ -1,0 +1,1 @@
+I got pretty stuck yesterday with trying to write typescript. I think before moving forward with the application logic I will increase my understanding of the nuances of the language. Most notably I want to know how to use class syntax properly.
