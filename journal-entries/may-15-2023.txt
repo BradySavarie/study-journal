@@ -1,0 +1,8 @@
+So last night I had finished up that Typescript tutorial i've been working on and I feel like it gave me a pretty good idea of the basics. Before moving forward with learning more about it I feel like it would be best to practice using it and just see what kind of problems I run into. I need to configure Webpack of course so that will require research but i'm good now with learning the syntax and introductory overview of static typing.
+
+Things that need done:
+    - Configure Webpack to work with Typescript and Jest
+    - Write Tests for the placeShip method in battleship
+    - Actually implement the placeShip method
+
+I've got a basic webpack config with typescript setup. Wasn't too tricky, Jest is still working as normal too so I think i'm in good shape. I also had writen a couple tests and made good progress on the placeShips method. So far I can successfully prevent a ship from being placed on top of any coordinate that another ship currently exists. This is working not just for the target coordinate but also all secondary coordinates that the remainder of the ship will take up when placed. Next step is to ensure that the ship will fit on the board, and then once that is verified I can actuallu place the ship. The rest should be easy honestly now that I have the basic checks worked out with the orientation of the ship being taken into account.
