@@ -1,0 +1,1 @@
+Left off last night with configuring the webpack dev server with typescript. I've always had trouble getting it running in the first place and i'm not sure what the deal is so i'm going to spend some time trying to figure it out now. Once that's done I can work on the battleship application some more.
