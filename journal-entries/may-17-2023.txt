@@ -1,0 +1,1 @@
+Okay so last night was pretty tricky. Todays goal is going to be focusing entirely on the placeShip method. I am considering using a helper function inside of it called validatePlacement instead of writing all of the logic purely inside of placeShip. Less talk more code.
