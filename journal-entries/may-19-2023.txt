@@ -1,0 +1,7 @@
+Okay, starbucks and chill time. Game plan today is to intialize the start of the game using index.ts. By the end of this session I would like the game to be at a state where the controller model is ready to be worked on. This won't require the ability to check the state of the game which is a part of the game module as takeTurn will not have been called yet at this point in time.
+
+Things that need to happen:
+    - Two players are created. One computer and one human.
+    - Computers ships are placed at randomly generated coordinates
+    - Human is prompted to place their ships until each has been placed
+    - Active player is set to human
