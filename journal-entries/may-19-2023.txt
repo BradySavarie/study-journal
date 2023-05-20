@@ -5,3 +5,9 @@ Things that need to happen:
     - Computers ships are placed at randomly generated coordinates
     - Human is prompted to place their ships until each has been placed
     - Active player is set to human
+
+Things are going good so far! Been working about an hour and the only thing that I have to accomplish still is figuring out how to prompt the user to place their ships.
+
+After thinking about it a little bit more I realized that the human won't be prompted to place their ships on load up necessarily. It is just a specific view that will be rendered and their ships will be placed once a drag/drop event is triggered. So.. yea, with the exception of the rendering methods my index.ts is ready to go then. Time to start thinking about the controller module.
+
+Okay i've created the game controller module and moved the logic from index.ts into a startGame method inside the controller. This clears up the index a little bit by only necessitating the single function call inside of it
