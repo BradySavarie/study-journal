@@ -1,0 +1,22 @@
+I'm anticipating that todays session will be a difficult one as the next step to take is a little fuzzy right now. I need to identify how the controller and view directories will work, and I need to define how I want the game to look upon initial load. What should be included in my html vs what should be created by the DOM? 
+
+Place Ships Screen Components:
+    - Game title and place ships header
+    - Ship orientation button
+    - Users gameboard
+    - Ship placement controls:
+        - Name of each ship
+        - Block representation of each ship (draggable)
+
+To begin creating the main page I have configured sass with webpack. It was a nice and easy process, and now I can go ahead and write modular scss which is cool. I plan on having a different style sheet for each screen and then importing them all into main.scss that contains the global styling. Webpack is so powerful, i'm glad i'm past that intimidating stage where I didn't understand what was going on at all haha. Configuring it isn't really that bad once you understand why you are adding the options in and what exactly they are doing. Perhaps I shouldn't be focusing my attention on details like this when creating an app that i dont ultimately intend on having in my portfolio but it feels nice to get more accustomed to the technology regardless. Using jest, typescript, and sass in the same project and then successfully bundling them together feels pretty badass although im sure I will look back and laugh at how basic it is in the future.
+
+I have a basic, unstyled structure now for the initially loaded html. Very simple stuff, nothing worth talking about. I now need to style it and dynamically render the gameboard and unplaced ships into the proper containers.
+
+Alright so i've figured out how to render the gameboard dynamically now. I created a placeShipsScreen module in the views directory and created a renderHumanGameboard function within it. The function creates the gameboard based off the boardsize and appends it to a container div that exists in the index.html file. This function is then called within the startGame function in the controller module that executes on load.
+
+Reporting back here at 12:30 haha, lots of programming done today. Also lots of staring at the screen and thinking about what to program. At the moment I have the gameboard and ships rendered on the place ships screen, and some basic layout and styling has been applied. Drag and drop functionality is the next hurdle to overcome and i've been researching that for the last hour or so. Looks like i'll basically just be toggling classes based on dragstart, dragend, and dragover states as well as triggering some functions on these events. Not too difficult to do. I want to make better use of sass but i'm not seeing much opportunity to expand my knowledge into it's features yet. perhaps its cause im unaware of the use cases and how it would apply so I would like to do more research in that area as well.
+
+Overall it was a nice productive day and I feel good about the progress that i've made. Seeing a result being rendered to the screen is encouraging for sure even if it isn't styled up how I want it to be yet. Some weaknesses are being exposed for sure which means this practice is beneficial even if it's a bit uncomfortable.
+
+So yea tomorrow is going to be all about drag and drop as well as styling up the place ships screen so that i can move on to the actual game loop itself. There is still alot of code yet to be written.
+

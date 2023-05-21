@@ -1,0 +1,1 @@
+I found a nice Battleship UI design online that i'm about to try and imitate the layout of. Adding my own twists of course but using a reference will be helpful to speed things up via reducing design related decisions. 
