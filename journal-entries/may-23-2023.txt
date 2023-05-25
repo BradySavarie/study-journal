@@ -3,3 +3,24 @@ Last night was pretty successful. I ended up completing the first big 'phase' of
 The first concern that I have is that instead of appending the ship into the cell that it is dropped on I have instead added a class to the correct cells so that it appears the ship is there. This means that once placed the ship can't be moved since the cell itself is not a draggable item. Ideally I would like to append the ship inside of the cell itself however this will require heavy revisions so I think I am instead going to use a slightly less desirable work around. I will just program the new game button to reload the window on click rather than allow ship replacement. This will be a bit clunkier for sure but this project is just for learning purposes and i'm confident that if I was required to write the reposition logic that I would be able to figure it out.
 
 The next concern is again in relation to how the rendering of ships to the boards works. Right now im just looping through the length of the ship to change classes on the correct cells when its dropped. When it comes to having to change the orientation of the ship this will be a problem because the rendering logic is restricted to a simple horizontal render based on the ship length. I think instead I need to separate the logic from the drop handler and put it back inside the render board function. This will require a little refactoring but it seems to be worth it.
+
+
+I separated out the rendering logic from the event handlers quite a bit just now. I'm reading through the code and trying to come up with ways to clean up yesterdays ideas and it seems to be helping quite a bit. Sometimes it's nice to just get things done despite inefficiencies or bugs and then circle back afterwards to iron out the issues with it. I also fixed a little bug that I forgot to mention. Whenever a ship was checking validity to the left of another ship, the entire remainder of the row would render as invalid. I was confused as to why it was behaving that way but once I separated the logic out I saw the problem and was able to correct it immediately.
+
+My plan is to next work out a better way to render the ships that will allow changing the orientation easily. As of now each cell on the gameboard is given the class empty to identify that it does not have a ship in it. No styling is applied to this class directly. When a ship is dropped, empty is replaced with fill. Fill does apply styling.
+
+I'm thinking that a more solid approach to rendering the placed ships is to loop through each element of the shipPositions array on dragenter and if not null select the corresponding cell and replace its empty class with fill. This will give the advantage of rendering each cell based on the status of the shipPositions array, meaning I will only need to write an extra function to change the orientation of the ship in the gameboard to have it render properly.
+
+Okay i've implemented the above code. Works as intended. I suppose I can wire up that reset button quickly as well, and then I will focus on changing the orientation of the ships. 
+
+Change orientation steps:
+    - Double click on cell
+    - if cell contains ship call rotate function
+    - rotate function selects the ship at the index stored in shipPositions array
+    - call changeOrientation on ship
+    - replace all index values in shipPositions array that match the ship with null
+    - call placeShip method 
+    - if successful, render gameboard
+    - if not, changeOrientation back to normal and return
+
+    break the above steps into smaller functions (as pure as possible for testing)

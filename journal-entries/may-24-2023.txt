@@ -1,0 +1,21 @@
+Alright this afternoon i'm going to implement the rotate function. Should be fun. Did quite a bit of prep work for it yesterday night so I should be able to get some good progress done within the hour or so that I have available to me.
+
+Here is the pseudocode that I wrote up last night:
+
+Change orientation steps:
+
+    + attach an event click (or double-click) event to each cell of the gameboard on initial render
+    + if the shipPositions array at the cells location contains a value that is not null than call rotate
+
+    - rotate function selects the ship at the index stored in shipPositions array
+    - call changeOrientation on ship
+    - replace all index values in shipPositions array that match the ship with null
+    - call placeShip method 
+    - if successful, render gameboard
+    - if not, changeOrientation back to normal and return
+
+    break the above steps into smaller functions (as pure as possible for testing)
+
+
+So far so good! i'm on the final conditional checks at the moment to see if the placement is valid or not. I need to find a way to reverse the changes to the shipPositions array if the placement is deemed invalid, or perhaps even find a way to do the check beforehand.
+
