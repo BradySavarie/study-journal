@@ -19,3 +19,8 @@ Change orientation steps:
 
 So far so good! i'm on the final conditional checks at the moment to see if the placement is valid or not. I need to find a way to reverse the changes to the shipPositions array if the placement is deemed invalid, or perhaps even find a way to do the check beforehand.
 
+Rotate is done! It's working cleanly, doesn't seem to contain any bugs at this point in time (that i'm aware of, that is). I'm merging the dragndrop branch into main now and pushing to github.
+
+My commits are pretty messy - i'm glad I've incorporated branching into my workflow successfully but I need to get better at either creating more targetted commits or going back and rewriting history. Or both, but ideally option A. 
+
+Tests are written now as well for rotate. Just two simple ones that verify if a valid rotation occues and if an invalid rotation is handled properly.
