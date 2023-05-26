@@ -1,0 +1,11 @@
+Sad today because I can't get much done at all. Reiterating quickly yesterdays plan for the start game button:
+
+* Note that the start game button will notify the game controller module via event listener that a new game is starting. This function will in turn communicate with a new battleScreen view module and whatever other model modules it needs to prepare the game for user input.
+
+    - listen for clicks
+    - when clicked, validate that all ships are placed on board
+    - if true call renderComputerGameboard
+
+    - replaces inner html of main__placement-controls container with a container to contain the computers gameboard
+    - dynamically render computers gameboard to the screen
+    - Display an instructions header/footer to tell the player to click to shoot their cannon
