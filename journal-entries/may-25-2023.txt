@@ -1,0 +1,1 @@
+Okay, it's getting pretty late so i've only got about 2 hours max today to work. I think in that time i'd like to get the randomize button working, and if that doesn't take up too much time than it would be great to start in on the logic for the initial render of the in game screen.
