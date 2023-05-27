@@ -11,3 +11,7 @@ Damn I don't like missing days, yesterday was disappointing.
     - Display an instructions header/footer to tell the player to click to shoot their cannon
 
     Time to implement the above functinonality so I can get the game loop logic put together.
+
+
+Okay, above pseudocode has been implemented! Looks pretty good, i'm all set now to get started with actually implementing the game loop which is exciting. I've noticed with this project that i'm not getting stuck nearly as much as on previous projects. I know how to accomplish a lot of tasks that before I was very unclear about which is a nice accomplishment. I'm also alot more willing to make code that works regardless of if it is the most optimized version or not. I can come back and improve on it later but putting something together that does the job and not worry too much about it being perfect seems to be a good way to make progress as opposed to over thinking every detail before building. One problem at a time!
+
