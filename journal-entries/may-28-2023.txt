@@ -1,0 +1,1 @@
+Today i'd like to complete the takeTurn functionality. There's quite a bit of logic packed into that single function and i'm not sure what unexpected surprises will come up, but maybe i'll get lucky and it will be easy. Who knows.
