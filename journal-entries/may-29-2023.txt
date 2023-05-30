@@ -3,3 +3,11 @@ Yesterdays orders:
 Tomorrow I would like to lock in the styling choices, find a good favicon (not many options online that I liked), add a status header that shows the results of each turn in text, and write a function that checks the end game conditions. This should be enough to keep me busy for the afternoon. If I hapen to sort it all out quickly I can also design the end game screen UI as well as render the sunken ships. I think after that all I will have left is writing the documentation and publishing it all to github pages. Heck yea, this was my favourite project so far. Lot's of growth happened over the past 2-3 weeks of working on it.
 
 I'm going to start with the styling choices. Should be an easy enough win to get some momentum going.
+
+Okay we're looking sharp. Favicon hunting time.
+
+Done. Nice. Time to work on the status header now (which might actually end up being a footer instead come to think of it).
+
+Okay status message is being rendered based on the turns attack status! I now have the choice to either figure out how to identify sunken ships and render them to the board along with a corresponding status method, or I can write the functions that check to see if the turn resulted in a loss or victory. 
+
+I'm feeling a little bit iffy about whether or not i'm writing spaghetti code right now. I know that I don't quite know better yet so the point is to finish the project, but I can't help but feel that i'm making mistakes that i'm not even realizing. I need to get comfortable with this feeling either way so i'm going to keep moving forward until the game is in solid working condition, and then from there I will try to hunt down another dev to help me with a code review. Hopefully I can find somebody that is willing to help out.
