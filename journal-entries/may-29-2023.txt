@@ -1,0 +1,5 @@
+Yesterdays orders:
+
+Tomorrow I would like to lock in the styling choices, find a good favicon (not many options online that I liked), add a status header that shows the results of each turn in text, and write a function that checks the end game conditions. This should be enough to keep me busy for the afternoon. If I hapen to sort it all out quickly I can also design the end game screen UI as well as render the sunken ships. I think after that all I will have left is writing the documentation and publishing it all to github pages. Heck yea, this was my favourite project so far. Lot's of growth happened over the past 2-3 weeks of working on it.
+
+I'm going to start with the styling choices. Should be an easy enough win to get some momentum going.
