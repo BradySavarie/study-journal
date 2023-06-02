@@ -1,1 +1,0 @@
-Okay about to get started on the end game checks for battleship. The goal is to have a function that changes the game state variable if the end game conditions are met, and then another function to render the end game screen if the value of the game state variable is victory or defeat
