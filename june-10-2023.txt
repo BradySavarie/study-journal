@@ -1,0 +1,28 @@
+Okay i've got 2 hours and a half hours to get some work done, let's gooo! The goal is to figure out which components I will need to write for this cv application and decide what exactly the components will need to do. If I can come up with a solid plan than i'll be in alot better shape to move forward as i'm a little lost right now. I also would like to settle on a UI design concept so that I know what i'm attempting to create. I'll do that first by looking for some reference projects to base my design off of.
+
+Okay so the main idea is to have two modes: edit and preview. You can switch between modes by clicking a toggle button.Edit mode will be selected by default. In edit mode you will see a form that is broken down into 4 main sections: personal information, experience, education, and skills. Here is a breakdown of which fields each section contains:
+
+Personal information
+
+    - First Name
+    - Last Name
+    - Photograph
+    - Address
+    - Phone Number
+    - Email
+    - Bio
+
+Experience
+
+    - Company
+    - Title
+    - Start Date
+    - End Date
+    - Description
+
+    Add Experience Button
+    Delete Experience Button
+
+Education
+
+    - 
