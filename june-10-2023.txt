@@ -7,7 +7,7 @@ Personal information
     - First Name
     - Last Name
     - Photograph
-    - Address
+    - Location
     - Phone Number
     - Email
     - Bio
@@ -68,7 +68,7 @@ App
 
 PersonalInfo
 
-    -
+    - 
 
 Experience
 
