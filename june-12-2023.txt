@@ -1,0 +1,44 @@
+My next goal is to add the remaining two sections (which will be quick), and then include the add and delete buttons for each section. Once that is done I can make the load example and reset buttons for edit mode and the generate pdf button for preview mode.
+
+Styling will come afterwards as mentioned in the last entry, but the stuff above is my goal for the day.
+
+    the skills description key is an array in state that currently contains 1 string element by default. When the add button is clicked an eventHandler function fires that pushes a new empty string into the array and creates a new form within the skills component. I need to track which form corresponds to which element in the array stored in state. To do this I can add a data-id attribute to each form element. Since I expect the array to change in length I should not use the index as the id value. I can generate a unique id each time a skill is added and then add that value as a property to each element in the description array as well as the form. Each element will then be linked to each form by id. The handleInputChange will need to chage to accomodate this change in the data stucture. instead of 
+
+the inputs array will contain section keys
+the section keys will be an array of objects
+each object will correspond to a form within the section
+each key within the object will be the value of an input field in the form
+each input field will need to respond to an onChange eventHandler
+
+The main problem is that I need to identify the section, object, and field for each input as it changes.
+Moreover, I need to create objects dynamically which then have to be identified on change.
+
+Each input will have a name attribute and a data-component attribute that identifies which field and section it belongs to. To identify which object it is a part of I will have to generate a unique ID and assign it either as a data-attribute to each field as well as to each object as it is dynamically generated. 
+
+So I will have a skills key for example that stores an array of objects each containing a unique key that identifies which object it is. This key will be included as a data attribute on each field within it. 
+
+When a button is clicked it will receive the event target which is the input element that was clicked. This input element will contain a name, data-component, and data-key. To set the state I can access the inputs key, then insert the component, then the data-key to get the object, then field the name to get the field. I can then change it's value to the inputs value (which is it's prevState, initialized as an empty string).
+
+this.state = {
+    inputs: {
+        personalInfo: []
+        experience: []
+        education: []
+        projects: []
+        skills: [
+            { id: uniqueIDHere, definition: ''},
+            { id: uniqueIDHere, definition: ''},
+        ]
+    }
+}
+
+
+first I will convert the existing code to work with this new data structure. To do this I will need to update the state object to reflect the changes. Then update the setState method in the handleInputChange event handler. Then loop through the array in each component instead of destructuring to create a form out of each object dynamically. I can then add in the id's to link together each object with the form fields
+
+Once this is done I will need to fix up the previewMode as well but ill start with edit mode above.
+
+Alright i've taken care of the above logic in edit mode for he most part. That was really tricky! I think I learned alot about react doing that though. This entire project so far has actually been very beneficial come to think of it. I've run into a lot of issues with passing around state and props, and using keys for iterating. Learning alot.
+
+Tomorrow I will finish up the remaining logic in edit mode (i's just data entry now, i've got it sorted), and then ill move on to preview mode and render everything on click. Once that's done I will be in the clear to add in button buttons that will add and delete entire sections. Lot's of prep work to get the program ready for that but it was pretty cool! I also have smartened up and used a branching workflow for version control which made me feel at ease making a lot of complex changes. Can't break it really since everything on main is safe.
+
+So yea anyways in summary I didn't complete my goal today but I also didn't realize the challenges that I was going to run in to when I set them. Im happy with the progress made and hope tomorrow I can push forward a little bit quicker. Im excited to learn styled components now so the sooner I get the logic ready for styling the better. Not only that but I get to figure out how to layout a css file to fit a print format (8.5x11) so the pdf's can be usable as resumes. I also get to learn how to generate a pdf from scratch too which is pretty neat.
