@@ -1,0 +1,11 @@
+Todays mission is to learn about styled-components in React! I'm kind of excited. Adding a new tool to the belt is always a fun thing to do. I don't expect to make any real progress on the cv-builder today as I focus on learning this new styling technique, but perhaps i'll get lucky and see how I can apply it immediately to my project. I have a feeling this will lead into learning about styled component libraries such as Material UI or Emotion (at least I think that's what those are), so I can consider this as an introduction to learning about those things as well. 
+
+Here is a list of css skills/approaches that I would like to be comfortable with:
+
+    - Vanilla CSS
+    - Sass/Scss
+    - CSS Modules
+    - Tailwind
+    - Bootstrap
+    - Material UI
+    - Styled-Components
