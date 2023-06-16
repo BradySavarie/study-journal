@@ -9,3 +9,5 @@ Here is a list of css skills/approaches that I would like to be comfortable with
     - Bootstrap
     - Material UI
     - Styled-Components
+
+I'd say i've learned quite a bit today! I have implemented a styled-components system now and I like the modular approach as it takes away any issues with the cascade. It is a little tricky to keep track of all the stylesheets in a project but hey pros and cons. I also found a suitable resume template that i'm going to try and follow for this project. It is very straightforward from a design perspective which is nice. I also played around a bit with the idea of using Material UI but i don't know if I should even bother right now since i'm in the middle of learning something new already.
