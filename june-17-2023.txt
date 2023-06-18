@@ -1,0 +1,3 @@
+Okay time to get going on styling this cv-builder. I'm going to start with the edit mode form and use a reference project to base it off of. The plan right now is to develop some styled components to keep the css-in-js theme going.
+
+So far so good! Got most of the form styled, just got to do some more manual work to set the rest of it in place. It's not some super fancy design but it does the job pretty well without being ugly.
