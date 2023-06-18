@@ -1,0 +1,3 @@
+Last night I had finished styling up the edit mode of my cv builder program. I'm getting a lot more comfortable using styled-components and I actually don't mind the workflow now that I am getting used to it. Having to build a component for containers is a little bit annoying, i'm wondering whether or not there is a good workaround for that problem that does not involve having to use inline-styles. 
+
+I just got curious and researched it. One possible solution is creating a generic container styled component that accepts props that represent the css values i want to set such as display, width, height, etc. and then each time I use the components I can pass in unique values to conditionally style it.
