@@ -2,4 +2,8 @@ I've got the memory-cards app all scaffolded out, next order of business is to p
 
 I can also clear out any unecessary boilerplate that Vite created so I have a fresh start to work with. 
 
-I found a method of randomizing an array of objects. I can just install Lodash and use the built in ._shuffle method. It seems to do exactly what I need. 
+I found a method of randomizing an array of objects. I can just install Lodash and use the built in ._shuffle method. It seems to do exactly what I need.
+
+Got my repo all setup now and connected to github. Should be good to start getting some coding done, however I could probably still benefit from refining this plan further before doing that.
+
+Okay I wrote quite a bit of code. So far i've fetched data from the api on mount and created a randomized array of movie objects out of it. I have ran into an issue with linting in useEffect. It is telling me I am having an issue with the dependencies array and I can't seem to figure it out. Been asking on the discord channel but nobody seems to be able to help out right now.
