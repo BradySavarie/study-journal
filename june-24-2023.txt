@@ -1,0 +1,5 @@
+I've got the memory-cards app all scaffolded out, next order of business is to plan which methods I will need to accomplish the desired functionality and when I will be calling them. I need to take into consideration as well as how/when I will be fetching data from the api and storing it for use in each card component. Apparently a good place to make HTTP requests is as soon as the component mounts, so I believe I will be calling the API with useEffect and an empty dependencies array as soon as app.js mounts. That data can then be manipulated to contain an array of 25 objects that have a title and img. Each time a game starts I want to update the array to contain 25 new movies rather than the same ones each time. Then every round will randomize their position.
+
+I can also clear out any unecessary boilerplate that Vite created so I have a fresh start to work with. 
+
+I found a method of randomizing an array of objects. I can just install Lodash and use the built in ._shuffle method. It seems to do exactly what I need. 
