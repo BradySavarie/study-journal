@@ -1,1 +1,9 @@
 Today I would like to create my card components (without styling), and then focus on getting the scorecard and timer working.
+
+My mission for the day has been accomplished! I've got my card components rendering, and i've built a scorecard that tracks current and best scores with a nested game timer component. That was good fun, the app is starting to really take shape. 
+
+The next thing that I need to do would be coming up with a system to properly increment the currentScore and round as the user clicks the cards. Each successful selection that the user makes should result in an increase in score by x amount, which i'll refer to as the pointValue. If every card on the screen has been selected than the round should increment by 1 while the score remains the same. Perhaps I can track a variable called roundPoints that increments by 1 with each successful selection, trigerring a new round when it reaches 1 more than the round (accounting for the extra comparison card in the first round), and then resetting with each new round.
+
+How do I know if a selection is successful? I can track currentlySelectedMovies each round by pushing them into an array on click if the id cannot be found in the array. a gameOver state can be initialized to false and if the id is found in the currentlySelectedMovies array than it can be switched to true which will trigger the end state.
+
+So far i've managed to setup the onClick handlers and trigger the end state as well as increment the round once the length of the currently selected movies array exceeds that round number. Now what I need to do is write the logic that takes the currentRoundMovies, shuffles them up, and adds another movie to it. THen the jsx should re-render the cards.
