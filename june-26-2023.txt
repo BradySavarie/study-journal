@@ -1,0 +1,1 @@
+Today I would like to create my card components (without styling), and then focus on getting the scorecard and timer working.
