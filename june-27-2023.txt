@@ -9,3 +9,6 @@ series of events:
     - if yes increment round indicator, shuffle movies and new one to current movies array
 
 I've got all of the above working. Next up is to track current and best score on click. I think i'll just create that handleSelectCard function now so that I can update the score states without having to keep them locked inside another function.
+
+
+Made alot of progress tonight. I've got my current score tracking working, and i've got an endGame function running as well that conditionally renders based on the gameOver state. It stops the timer too. What I need to do now is develop the end game screen to display the users accomplished score and best score, as well as give them an option to play a new game. Of course i'm also going to have to figure out a way to track best score. Once I have those things working the main logic of the app will basically be done. From there I can style up the application. Once the app is looking good I am going to want to create a feature branch for the leaderboard functionality which will necessitate tracking the users time. Ensuring the data persist will be the part that I need to learn about. Not sure how that is done yet since local storage isn't really an option. So excited to learn about backend stuff down the line.
