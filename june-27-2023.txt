@@ -1,0 +1,11 @@
+At work today I had the idea that since I want multiple things to happen when I click on a card component (increment score, check game over, check new round, add card to selected list) I should create a handleSelectCard function that calls of the the necessary logic rather than try to bake it all into a single function. I will do that today first, and then once that is done I can focus on the logic that switches to the next round.
+
+series of events:
+    - card is clicked
+    - check is card has already been selected
+    - if yes update game over state, if no add to selected movies array
+    - if game over is true call game over function, if not increment score
+    - check if round is over
+    - if yes increment round indicator, shuffle movies and new one to current movies array
+
+I've got all of the above working. Next up is to track current and best score on click. I think i'll just create that handleSelectCard function now so that I can update the score states without having to keep them locked inside another function.
