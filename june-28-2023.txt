@@ -1,0 +1,6 @@
+Here's some 'instructions' that I wrote up yesterday for the remainder of the app:
+
+"What I need to do now is develop the end game screen to display the users accomplished score and best score, as well as give them an option to play a new game. Of course i'm also going to have to figure out a way to track best score. Once I have those things working the main logic of the app will basically be done. From there I can style up the application."
+
+I looked into creating Leaderboard functionality and as far as I can tell so far I will need a database in order to actually have data persist for multiple users. Local storage wouldn't do the job in this case. I think i'm going to skip that for this project and perhaps when I get to the backend course I can decide if I want to add that functionality into this project. I bet when I get to that point I will have other projects that will be more impressive portfolio pieces that I will want to practice on but that is fine!
+
