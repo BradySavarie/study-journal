@@ -31,3 +31,12 @@ Multiple Routes
 useRoutes Hook
 
     The useRoutes hook lets you input an array of objects that defines that routes that you want to navigate to using javascript rather than jsx. it accomplishes the same thing as writing up your routes in the jsx as discussed but just looks different. For example, each object in the input array will have path, element, index, etc props avilable to be set just like the Route components do. It is just a different way of representing the same process of routing and can be used if preferable. JSX looks cleaner to me so far, but hey maybe i'll decide to do this instead at some point so its good to know the hook exists.
+
+
+The next section of the video is all about navigation, and some more functionality of the Link component has been introduced. Turns out it takes more parameters than just 'to' (which specifies the path it links to, obviously). 
+
+Another available prop is replace which is a boolean value that is set to false. By default, when a user clicks on a Link, the new URL is added to the browser's history stack, allowing the user to navigate back to the previous page using the browser's back button. This is known as a "push" navigation. When the replace prop is set to true, it changes the navigation behavior to "replace" instead of "push". This means that instead of adding a new entry to the browser's history stack, the current entry is replaced with the new URL. As a result, clicking on the link will not create a new history entry, and the user won't be able to navigate back to the previous page using the browser's back button. The replace prop is useful in certain scenarios where you want to perform a navigation action without adding a new entry to the history stack. For example, when implementing a login flow, after successful authentication, you might want to redirect the user to the home page and prevent them from going back to the login page by using replace.
+
+The reloadDocument property is simple, it just reloads the entire page instead of just the route that changes. Usually react router will only reload the changes route which is what is useful about it, but overriding that behaviour sometimes is desired.
+
+Finally, state is also available as a prop in the Link component.
