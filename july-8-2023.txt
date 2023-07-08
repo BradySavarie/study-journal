@@ -1,0 +1,1 @@
+Today i'm going to be continuing with the ecommerce project configuration video to make sure i've got everything up and running and then i'd like to work through the important testing concepts included in TOP react testing lesson 1.
