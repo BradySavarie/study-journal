@@ -1,0 +1,15 @@
+Continuing now from yesterdays journal entry where I was summarizing the topics of the react router video i'm watching. 
+
+Remaining Topics:
+
+    NavLink component
+
+    The NavLink component is essentially an extension of the Link component. It does the same thing, but it has a few extra features that allows for manipulating the link based on its active state. You have 3 options for making use of the active state. The style and className props both take a function with a boolean parameter that you can call isActive. When the link is active than isActive will be true, so you can return a value based on that state. The style prop would return a styles object that is basically applying in-line styles to the component, while the className will apply a class to the component which can be styled later with regular css of course. If you wanted a NavLink to be red when it is the active link than this is a great way of doing that. The other use case would be accessing the isActive state be initialzing a child function within the tag with the isActive parameter and doing things with it like displaying certain text or what not. Maybe the navlink text should say 'Active Page' when the link is active, but only say 'page' when it is not. Something like that.
+
+    Navigate component
+
+    
+
+    useNavigate Hook
+    Search parameters
+    Navigation State

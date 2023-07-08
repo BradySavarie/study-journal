@@ -39,4 +39,12 @@ Another available prop is replace which is a boolean value that is set to false.
 
 The reloadDocument property is simple, it just reloads the entire page instead of just the route that changes. Usually react router will only reload the changes route which is what is useful about it, but overriding that behaviour sometimes is desired.
 
-Finally, state is also available as a prop in the Link component.
+Finally, state is also available as a prop in the Link component. Past midnight now so i'm going to continue tomorrow where I left off here.
+
+Remaining Topics:
+
+    NavLink component
+    Navigate component
+    useNavigate Hook
+    Search parameters
+    Navigation State
