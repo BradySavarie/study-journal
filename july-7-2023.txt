@@ -6,10 +6,32 @@ Remaining Topics:
 
     The NavLink component is essentially an extension of the Link component. It does the same thing, but it has a few extra features that allows for manipulating the link based on its active state. You have 3 options for making use of the active state. The style and className props both take a function with a boolean parameter that you can call isActive. When the link is active than isActive will be true, so you can return a value based on that state. The style prop would return a styles object that is basically applying in-line styles to the component, while the className will apply a class to the component which can be styled later with regular css of course. If you wanted a NavLink to be red when it is the active link than this is a great way of doing that. The other use case would be accessing the isActive state be initialzing a child function within the tag with the isActive parameter and doing things with it like displaying certain text or what not. Maybe the navlink text should say 'Active Page' when the link is active, but only say 'page' when it is not. Something like that.
 
+    Worth mentioning that the NavLink component applies a class of active by default to the active link, so it can be used out of the box. Super handy as this negates any reason to write a little active toggle function which i've had to do several times in the past. If a parent route is being matched when a child link is clicked it will still show up as active though. If you want to make sure that when you click a child Link the parent does not get selected too (due to matching routes) than you can put the prop 'end' on the parent. This will ensure only the target element receives the active state rather than propogate back through the chain to the parents.
+
     Navigate component
 
-    
+    This component is another Link with a twist. When this component is rendered it automatically navigates the user to the provided path using the 'to' property. This is good if you want to redirect the user once a certain action happens. If a user types a url that doesnt exist in the search bar a 404 route can call an element that contains a nav component within it back to the home page for example.
 
     useNavigate Hook
+
+    Another way to navigate manually is by using the useNavigate hook. A use case for this type of navigation would be when you want to send a user to a certain page based on a form submission for example. This isn't component based like above but instead is based on an event, so this hook is a great way of accomplishing that functionality. The hook returns a function that allows you to navigate to a particular location. The returned function takes 3 parameters: the location/path that you want to go to, the replace prop, and the state prop. They all do as expected. You can also input a number (negative for forward, positive for backwards) that navigates through your recent history to the page you were on x pages ago.
+
     Search parameters
+
+    Search parameters are variables that are stored within the url of the page you are on. React has a hook that allows you to access search parameters called useSearchParams(). It works just like useState works, where you set a default value for it such as 'n: 1' and it sets n = 1 within the URLSearchParams object. To access n, you can call whatever you named the variable (suggested is searchParams) and then use dot notation to access the paraticular parameter. In the case the syntax would look like this:
+
+    const [searchParams, setSearchParams] = useSearchParams({ n: 1});
+    searchParams.n would equal 1
+
+    When you refresh the page this data would persist since the URL remains the same which makes this a very useful way to store and access data. A ? in front of a variable within a url indicates it is a parameter. 
+    
+    www.whatever.com/books/?n=1
+
+    in the above url you can see n is a parameter and it is equal to the value 1.
+
     Navigation State
+
+    Navigation state refers to some data that is stored within a location object as a state property whenever a link is interacted with. What that means is if you set the state prop with a link to be the string 'Hi', then when you click on that link that value will be stored in state. To access it you can call the hook useLocation which returns an object. The object has several properties related to the current location you are at which includes that state property. Therefore, calling location.state will give you the value of whatever the state was set to. This is helpful when you want to pass data between components. For example, lets say that you are in app.js and you have routes setup to render a NotFound component whenever the url does not match any other routes. Within this component a navigate component is returned the sets the state equal to the string 'error not found' and then redirects back to the previous page. Doing this will allow you to access that error not found message from app.js since it is stored inside of state, meaning you can render it once you to return to that component.
+
+
+Boom! Video done and clearly understood, I feel really good about routing now. Looking forward to using it in the shopping cart project coming up. I think it is time to move on to testing in React now. I have 2 lessons to complete there before starting up the next project. I love learning new topics like this and then being given the perfect opportunities to apply the knowledge. Feels like leveling up in a video game.
