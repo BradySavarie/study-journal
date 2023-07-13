@@ -7,3 +7,26 @@ I've decided that i'm going to go ahead and follow a guitar pedal theme instead 
 
 Since I want a navbar to be present on every page, App.js will return a navbar component with a routes section beneath that. This will ensure that only the content below the navigation bar changes. The base url will render a Home component that contains a call to action of some sort that links to the shop page or a particular category/product. The nav bar will have a logo that links back to the home page on click, a shop link that navigates to the shop route, and a shopping cart that displays the current state of the cart. I'd like to add search and sort functionality to the application, but I think I will keep that baked within the shop page rather than in the navbar.
 
+The shop page will have a sidebar component that lists the categories and a bunch of nested routes that link to category pages for different effect types such as distortion, reverb, etc. When a category is clicked on the route will be update and the corresponding component rendered. This setup should ensure that only the relevant parts of the pages are rendering. Finally, the products will be displayed for each category. I think each product should have its own page and navigating to it can be done using dynamic segement routing. You should be able to view all product details on that page, along with adding and removing the product and different quantities from the cart. Below should be a list of related products that the user can navigate to (just a few from the same category).
+
+Okay so a summary of components:
+
+Base URL:
+    NavBar
+    Home
+
+Shop Page:
+    Navbar
+    Catalog/Sidebar
+    Grid where current products are displayed
+
+Products Page:
+
+
+    
+
+
+    
+sidebar
+
+
