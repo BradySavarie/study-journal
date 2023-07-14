@@ -1,6 +1,6 @@
 Yesterday was pretty successful as far as planning goes. I have a solid idea now of what i'm trying to accomplish. Today I would like to sort out how I am going to approach routing and start implementing it with some really basic components. I should be able to navigate around the main UI properly by the time i'm done. If that doesn't end up taking too long than I will also get a jump on creating my data file that holds all of the pedal information I will be using. Perhaps just creating the first object today would be a good call to ensure I have the structure figured out for the most part.
 
-SO app.js is going to server as my route switch. It will contain all of the routes within my application. This will include the home page, the shop page, and the product page. Dynamic segments will be included for the different categories and product names.
+SO app.js is going to serve as my route switch. It will contain all of the routes within my application. This will include the home page, the shop page, and the product page. Dynamic segments will be included for the different categories and product names.
 
 My shop page is going to include a categories component that renders a list of categories that are links. By default the 'all products' route will be selected so all of the products will be visible. When a link is clicked the route will filter the products based on that category and only show the products that are included in that list.
 
