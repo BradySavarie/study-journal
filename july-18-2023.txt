@@ -1,0 +1,2 @@
+I had th eopportunity to spend quite a bit of time throughout the day going through the new React course and i'm back at the shopping cart application again. I came across a handful of new, interesting concepts in these updated lessons as well that i'll go through quickly.
+
