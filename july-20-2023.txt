@@ -1,0 +1,15 @@
+I finished the context api lessons today and learned about reducers! I am glad to get up to speed on those as they are a useful alternative to state when you have a component with a lot of state logic. I need to still solidy the concept in my mind and practice using the useReducer hook a little bit to make sure I really do know how it all works.
+
+I'd like to spend a little time on the project today though rather than focus on new lessons. Here's a little summary of the tasks I have remaining, in order:
+
+    - Write unit tests for each component
+    - Instantiate and style product filtering component
+    - Style product page
+    - Instantiate and style shopping cart component
+    - Include hide/show shopping cart animation on click
+    - Create add and remove items from cart functions
+    - Hook up shopping cart logic to product cards, product page, and shopping cart components
+    - Style not found page
+    
+
+Tough evening! I have been trying hard to refactor the routing logic to use createBrowserRouter but I can't seem to get past an issue with Typescript not allowing the RouterProvider component to render any child components. I've tried many configurations and nothing that i've done so far has been correct. I want to get a navbar to render and then use the Outlet route to render the proper component below the navbar. the CreateBrowserRouter returns a Router array that contains objects describing each route. 
