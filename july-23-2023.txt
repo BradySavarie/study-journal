@@ -1,0 +1,12 @@
+Yesterday was pretty successful. These are the tasks that I have remaining for the shopping cart application after the progress that was made:
+
+    - Write unit tests for each component
+    - create and style product filtering component
+    - Style not found page
+    - Add more products to the database
+    - Style Similar Products section
+    - Include local storage?
+
+Today goal is going to be to add products to the database, style the similar products section, and style the not found page (or ensure that a navigation happens back to the home page instead). Perhaps I can add in the local storage as well if I have time but I expect this to take a little while yet. Tomorrow then will be all about creating the product filtering. Tuesday I will dig into the unit testing. I definitely should have been writing those as I was coding because now it just feels like a chore rather than something that can aid in the development project. If there were other programmers working on this though than writing the tests afterwards would have it's value so practicing now is still a good call regardless. Once all of this is done I will deploy the app and move on.
+
+It's worth noting as well that I have been reading through the website patterns.dev to help learn some design patterns in React. It's pretty interesting stuff and I see how these patterns can be applied to many different problems. So far I have covered the singleton pattern, proxy pattern, provider pattern, and prototype pattern. 
