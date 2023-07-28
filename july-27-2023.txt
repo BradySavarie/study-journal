@@ -4,4 +4,4 @@ Went through all of Reacts reducer challenges in the 'Extracting State Logic int
 
 Im also reading through the useReducer hook documentation specifically to reinforce what i've learned. Shouldn't take all that long.
 
-Alright so I redid all of the reducer challenges, completing the lesson, and even got through the written portion of the odin projects next lesson and refs and memoization. I need to review all of the attached resources and spend quite a bit of time with these concepts I believe to let them connect fully. Right now I understand from a basic perspective how they work and what htey are but I will need to study them further to really lock it all in.
+Alright so I redid all of the reducer challenges, completing the lesson, and even got through the written portion of the odin projects next lesson and refs and memoization. I need to review all of the attached resources and spend quite a bit of time with these concepts I believe to let them connect fully. Right now I understand from a basic perspective how they work and what htey are but I will need to study them further to really lock it all in. 
