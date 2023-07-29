@@ -1,0 +1,1 @@
+I'm going to attempt to finish up the refs & memoization lesson today! That would wrap up the entire React course which is super cool. I don't have too much studying left I don't think, hopefully I can find some challenges to work through again. I find those really help speed up my learning and give me confidence.
