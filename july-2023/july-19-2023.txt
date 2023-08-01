@@ -1,0 +1,3 @@
+I only have about an hour and a half left of my evening to get some coding in so todays goals are going to be pretty conservative. I am going to focus solely on styling up the product cards and aranging them in a responsive grid. If I happen to get that done quickly then I will move on to the shopping cart logic but i'm not expecting it.
+
+Note that I went through the context api lesson at work today and still have a few articles to read through to complete it. Since I already studied this recently I haven't come across much new information on it yet but who knows what will be in these articles.

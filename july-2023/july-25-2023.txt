@@ -1,0 +1,11 @@
+Today i'm going to do my best to keep studying to an hour as I didn't sleep enough last night and need to go to bed early. Within this time I would like to review and make a list of what work is left to do on the ecommerce project, start planning out how to deploy the site, and write a couple of tests on the highest order components.
+
+Tasks remaining:
+
+    - Add 3 more pedals to database (fuzz, delay, reverb)
+    - Deploy site
+    - Write unit tests for each component
+
+Any remaining features/functionality can be added at a later date. Right now this site is in good enough shape to move forward. Best project yet by far I believe!
+
+Yay! I added the products and have the dite deployed to Netlify! The deployment process took longer than I thought it would as I as dealing with a pretty obscure issue. I did howevevr learn alot from it so it's okay that it didn't go smooth. The problem was that my javascript file would not be found by the browser once built. I tried alot of different things to fix it but what it came down to was that I had my base set in the vite.config to /ecommerce-shop/. This of course was not correct, the actual base should have been just a /. I tried fixing it manually as I did notice the path was off, but Netlify uses continuous deployment so whenever I would commit the change to github netlify was running the build command which would just override the change anyways. I didn't realize it was being explicitly set inthe config at the time, StackOverflow came to the rescue there. Awesome problem solving opportunity. It's getting easier to keep my coll in the face of these complicated issues. When I find myself getting frustrated I remind myself that the possibilities are narrowing down the more that I try out potential solutions so even if I feel stuck I am inevitably getting closer.

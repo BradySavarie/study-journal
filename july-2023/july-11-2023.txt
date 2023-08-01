@@ -1,0 +1,32 @@
+Today the goal is to put together a solid plan for writing this shopping cart application. I want to have an idea of which pages need to exist and which components I would like to be contained within them. The overall vision of the design should also be mapped out for the most part, and I would like to choose a theme and decide whether or not I want to use an api to grab my product data from. 
+
+Okay so at the moment i'm deliberating over whether or not I want to make a guitar pedal themed ecommerce shop and just source all of the data manually to be stored in a json object, or if I will be better off to leave out a theme and just use a generic fake store api to grab data from. I'd like to demonstrate my ability to work with an api but I don't think that the site will be as strong if it doesn't follow a particular theme.
+
+I've decided that i'm going to go ahead and follow a guitar pedal theme instead of fetching from the api. I already have demonstrated that I can work with one in past projects, and I want this site to look nice and feel unique rather than just another fake clothing/jewelry store. I will store the product data along with photos within the app, it will just take a little bit longer since i'll have to create all of the data manually. Oh well, the result should be worth the effort. 
+
+
+Since I want a navbar to be present on every page, App.js will return a navbar component with a routes section beneath that. This will ensure that only the content below the navigation bar changes. The base url will render a Home component that contains a call to action of some sort that links to the shop page or a particular category/product. The nav bar will have a logo that links back to the home page on click, a shop link that navigates to the shop route, and a shopping cart that displays the current state of the cart. I'd like to add search and sort functionality to the application, but I think I will keep that baked within the shop page rather than in the navbar.
+
+The shop page will have a sidebar component that lists the categories and a bunch of nested routes that link to category pages for different effect types such as distortion, reverb, etc. When a category is clicked on the route will be update and the corresponding component rendered. This setup should ensure that only the relevant parts of the pages are rendering. Finally, the products will be displayed for each category. I think each product should have its own page and navigating to it can be done using dynamic segement routing. You should be able to view all product details on that page, along with adding and removing the product and different quantities from the cart. Below should be a list of related products that the user can navigate to (just a few from the same category).
+
+Okay so a summary of components:
+
+Base URL:
+    NavBar
+    Home
+
+Shop Page:
+    Navbar
+    Catalog/Sidebar
+    Grid where current products are displayed
+
+Products Page:
+
+
+    
+
+
+    
+sidebar
+
+

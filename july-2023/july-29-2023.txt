@@ -1,0 +1,9 @@
+I'm going to attempt to finish up the refs & memoization lesson today! That would wrap up the entire React course which is super cool. I don't have too much studying left I don't think, hopefully I can find some challenges to work through again. I find those really help speed up my learning and give me confidence.
+
+    - Finish 'Manipulating the DOM with Refs' section of the react docs (challenges included)
+    - Read through 'Making setInterval Declarative with React Hooks' article by Dan Abramov
+    - Read article 'When to useMemo and useCallback' by Kent C. Dodds
+    - Read useMemo React docs section
+    - Read useCallback Reac docs section
+
+Okay everything above has been accomplished! Quite a bit of reading today but it was worth it. I undertand memoization now, and the useMemo/useCallback hooks in particular. The are strucutred similarly to useEffect in that the only run when the dependencies that are declared in the dependencies array change. They return a memoized value, meaning it will not be changed unless the dependencies change. This is great for making expensive calculations or actnig when referential equality is not present.
