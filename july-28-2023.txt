@@ -1,5 +1,0 @@
-Alright so i'm all set with reducers now for sure, awesome! I'm also doing pretty good with refs. I have covered most of the study material, just got another article or two and some challenges in the react docs that I want to work through before moving forward. I definitely need more time to get a grasp on memo's though, I know what they are but don't see myself understanding them enough to actually use them. I will finish clarifying any questions I have on refs and then spend some time looking into those for a bit. 
-
-I also have been moving forward with the design patterns each day, haven't really mentioned that in the journal. Today I learned about the HOC and Render Props patterns. Just different ways to pass down values to child components really.
-
-I just did 4 ref challenges. Definitely see now how these are important! I understand how to use them which is exciting too. If I want a value to change without causing a re-render yet still persist throughout re-renders then refs will be perfect for that. An escape hatch from the react paradigm.
