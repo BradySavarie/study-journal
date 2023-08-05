@@ -1,3 +1,7 @@
 Today i've read through the lesson on meaningful text which was super short. It really just made sure that I understand that I should be thinking from the perspective of a screen reader when writing text for elements such as a button. If the inner text is just 'click here', then how will the user of a screen reader know where the button will take them? It is important to include context. So if the button was directed towards the home page of a website than perhaps the button text could be the name of the website or something like that. As long as it could be understood when it stands alone (out of context) than it is probably an accessible piece of markup.
 
-I've started going through the WAI-ARIA lesson now. it is like accessibility super powers for your html. The point of it existing is to expand upon the acciessibility features that html provides via attributes. You shouldn't use aria when you can just use html to accomplish the same thing, and you shouldn't use aria unless you know for sure it will improve the website. No aria is better than bad aria, basically.
+I've started going through the WAI-ARIA lesson now. it is like accessibility super powers for your html. The point of it existing is to expand upon the acciessibility features that html provides via attributes. You shouldn't use aria when you can just use html to accomplish the same thing, and you shouldn't use aria unless you know for sure it will improve the website. No aria is better than bad aria, basically. 
+
+WAI-ARIA:
+Web Accessibility Intiative's Accessible Rich Internet Applications
+
