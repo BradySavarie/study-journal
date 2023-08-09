@@ -1,0 +1,14 @@
+I only have about an hour tonight to spend on programming. I'm hoping to get the configuration of my portfolio project all worked out. I've listed out all of the things that i'd like to get functional, here it is:
+
+    - react router
+    - materialUI
+    - material icons
+    - styled components
+    - engine for styled components
+    - react testing library
+    - jest dom
+    - user events
+    - vitest
+    - prettier (?)
+    - any types dependencies
+    - framer motion
