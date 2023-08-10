@@ -15,3 +15,5 @@ I only have about an hour tonight to spend on programming. I'm hoping to get the
     - framer motion
 
 Alrighty. As of now i've got material ui (including icons and styled components engine/library), eslint, prettier, and all of the typescript types worked out that are relevant to the currently installed dependencies. Next up I will test a dev server to make sure everything is working as intended. Once that is confirmed I will add in react router, and then I will research what kind of testing I should be doing for this app to decide how I want to approach unit tests. It doesn't seem necessary for a portfolio website but idk maybe it is.
+
+Mui and styled components has been tested and confirmed to be running. Good to go. I will need React router next, and then I will test again to make sure I have working routing.
