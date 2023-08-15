@@ -1,0 +1,1 @@
+Alright so first thing that i'm doing today is learning how to toggle the mode on click. The only change I expect to occur when I do that is the icon changing since it is conditionally rendering right now.
