@@ -1,0 +1,2 @@
+In continuation of yesterday explanation of how the color mode toggle works in this application:
+
