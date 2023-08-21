@@ -1,0 +1,1 @@
+Tonight i'm going to be focusing on making the navbar mobile friendly! I want the container that holds all of the functionality (navlinks, color mode toggle, and download resume button) to be hidden when a small breakpoint is reached and instead a hamburger menu icon be put in it's place. When the button is clicked a drawer should open that displays all of those same controls.
