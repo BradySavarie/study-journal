@@ -1,0 +1,3 @@
+Yesterday I had finished up the mobile drawer. It works great! I can actually start working on each individual section now I believe, starting with the hero section. The concept is to be able to scroll through the full page and see the entire sites contents as designed in figma, and by clicking on the navbar links it will jump you to the correct section. 
+
+I anticipate the hero section to be the most challenging part to write from a styling point of view. I have to figure out how to stack images and svgs while rotating them and also having it be completely different when in a mobile view. Should be good practice!
