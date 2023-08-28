@@ -1,1 +1,3 @@
 This afternoon i've been doing a little bit of research trying to find a better design concept that I can work with for the projects section my portfolio. It is th eonly part that i'm not completely happy with so I figure before spending time on developing it I can go ahead and make some changes.
+
+Cool so i've got a nice design ready to go in Figma now for the projects section. It looks alot better. I've created some mockups and made the design not have a staggered color scheme so that it flows more naturally down the page. Should be good to start developing it now.
