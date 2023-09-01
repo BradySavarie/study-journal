@@ -1,1 +1,3 @@
 Just finished making the projects section responsive! Looking slick. Time to extract the project card component out to declutter the main file. Once that's done i'll add the remaining two projects in there. Really enjoying how this is coming together.
+
+All done the projects section now. Fully responsive, easily extendable and editable, and looks great in dark mode.
