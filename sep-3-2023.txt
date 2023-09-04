@@ -1,0 +1,1 @@
+Tonight i'm going to work on getting the contact form all set up. First thing I have to do i find a design reference, then once I have that I will build the form itself without styling. Afterwards I can add in the email functionality via emailJS and then finally style it up. I might also just add in the footer because why not, it will be a quick build.
