@@ -22,7 +22,7 @@ fs.readFile(path, (err, data) => {
     }
 })
 
-This example demonstrates basic routing and serving an html file to a client. It is kind of verbose though to do this for each possible file, especially as the project grows in scope.
+This example demonstrates basic routing and serving an html file to a client. I learned how to redirect a page as well which just requires setting the header location to a different route. It is kind of verbose though to do all of these things for each possible file, especially as the project grows in scope. 
 
-Enter Express! I started learning about this framework today which is designed to make nodejs a breeze to work in. It really condenses the syntax to make the same types of operations as above for example much more readbale and quicker to write.
+Enter Express! I started learning about this framework today which is designed to make nodejs a breeze to work in. It really condenses the syntax to make the same types of operations as above for example much more readable and quick to write. 
 
