@@ -26,5 +26,7 @@ To use a partial you can use the following syntax:
 
 Notice that this uses a - sign instead of an = sign. The reason for this is that the equals sign provides an html escaped output, so escape characters and what not will be taken into consideration. You don't want that when including partials because paths make heavy use of forward slashes which could be mistaken as an html escape character. 
 
+So as of now I know that I can include a style tag into the head of my document and input any css that I want there, but i dont have a way of actually putting it into a second document and having it apply to the project. Not sure how to approach that but apparenlty middleware and serving static files will solve the problem! That's what i'll be learning about next.
+
 
 
