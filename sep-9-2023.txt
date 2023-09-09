@@ -1,0 +1,1 @@
+Okay jumping back into the nodejs course now. Learning about middleware. Apparently it is just all of the code that is ran on the server between receiving a request and sending back a response. I imagine that the possibilities of what you can do with middleware is endless for that reason.
