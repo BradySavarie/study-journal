@@ -1,3 +1,30 @@
 Today i'm going to be studying and putting into practice more nodejs and express topics. I'll be starting things off with learning about view/templating engines. 
 
 Looks like the technology that i'll be starting with is ejs (stands for embedded javascript). The purpose of it is to generate html dynamically using plain old javascript. Not to be confused with using template literals which uses javascript within html. The use case for ejs instead is more so when you are generating a bunch of html using javascript, like a dynamic list for example. You could use a for loop to create a bunch of list elements with javascript variables inserted as text content or whatever and the syntax would be nice and easy. The creatiion of html using javascript so that the html can be based on dynamic data.
+
+So far i've created ejs files for the first time and used the render method to serve them to the browser. Interesting concept so far and led me to learn about what server side rendering really is. The SSR process basically just uses the view engine (ejs in my case) to convert the ejs files (html-like files with embedded javascript) to plain javascript and then serve that file to the client. Doing the rendering on the client-side could have some benefits like improved SEO, quick page load times since the html is ready to go right away, and security since sensitive data can be kept away from the browser.
+
+I've been practicing using ejs to work with dynamic data in express. It is pretty cool, I just have to use ejs tags to wrap javascript logic. They look like this: <% %>. Anything within these tags is processed as javascript while anything outside of it is processed as html. You can wrap an if statement for example inside of these tags and close the tag off right before any of the logic within it is written out so that the if statement is evaluated and if true the html within it will be parsed. Heres what I mean:
+
+<% if (statment === true) { %>
+<p>Insert html here</p>
+<% } %>
+
+Notice that anything that would be considered javascript, including the curly braces of the if statement block, is wrapped in those tags. The regular old p tag sits within it. You can also use an equals sign on an ejs tag to denote that you are using a variable, like so: <%= variable %>. You can pass a piece of data into an ejs file from another file to be used as a variable by including a second argument in the render function. The argument is an object that has key value pairs. So if I wanted that p tag in the example above to include the title variable I can write it like so:
+
+<% if (statment === true) { %>
+<p>The movie is called <%= title %></p>
+<% } %>
+
+The cool thing about this is that by passing the object in through the render method you dont have to instantiate an variables within the ejs file at all, they just automatically are available for use. So I never had to insert the title variable anywhere else within that file, it was just passed in and is available. This is unlike props in react for example which need to be destrucured within a component first in order to be used (unless accessed on the props object, but thats besides the point).
+
+Next I learned about partials. They are just files that contain reusable chunks of ejs code, such as a nav, that you can insert into as many pages as you like. This is nice because if you want to make an update to a nav that is being used on a bunch of pages of a website you only need to edit the partial and all of the files that include it will be updated along with it. No need to go to each file and manually adjust it.
+
+To use a partial you can use the following syntax:
+
+<%- include('./path/to/partial') %>
+
+Notice that this uses a - sign instead of an = sign. The reason for this is that the equals sign provides an html escaped output, so escape characters and what not will be taken into consideration. You don't want that when including partials because paths make heavy use of forward slashes which could be mistaken as an html escape character. 
+
+
+
