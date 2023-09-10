@@ -1,0 +1,2 @@
+Picking up where I left off with the MongoDB lesson. Starting off a a section that teaches me how to output documents into views. Let's goo.
+
