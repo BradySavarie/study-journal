@@ -1,0 +1,1 @@
+I ended up finishing unit 6 last night! The updateMany and delete function are very straightforward to use. For the sake of time i'm not going to dive into the specifics as I can always look up the docs in the future. Time to move on now to unit 7 where i'll be learning about modifying query results.
