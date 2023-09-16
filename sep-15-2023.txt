@@ -2,4 +2,9 @@ I started up the unit on aggregation last night. All of the topics that have bee
 
 In MongoDB there is a concept called the aggregation pipeline. This pipeline is a chain of operations that narrows your data down into the form that you want it to exist in for analyzing. The operations take place in stages that you get to define. For example, you can have a match stage followed by a group stage. The match stage would return only the documents that match a query you pass in. This stage would then pass the return result to the input of the group stage. The group stage would then group data together however it is specified to so that you can analyze it as a whole rather than as individual components. 
 
-Say you have a canadian real estate market database and you want to query it know how many houses were sold in ontario before a certain data. You can first pass in a match query for canadian houses sold before that date. Then group those houses by province and return the sum of house sales for just Ontario. This is the type of situations the aggregation pipelines are great for.
+Say you have a canadian real estate market database and you want to query it know how many houses were sold in ontario before a certain data. You can first pass in a match query for canadian houses sold before that date. Then group those houses by province and return the sum of house sales for just Ontario. This is the type of situations the aggregation pipelines are great for. Group and match are the onlt two stages that i've learned about so far.
+
+So all of the stages that were covered in the unit were match, group, project, set, count, sort, limit, and out. It's a really straightforward process to use these aggregation stages, you just have to know what they are. MongoDB provides documentation and now that I understand these I can always refer back when I inevitably forget it haha.
+
+
+
