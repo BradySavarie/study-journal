@@ -1,0 +1,2 @@
+Alright time to start the Express section of The Odin Project! This should be fun. I'm imagining it will be a long one since there are quite a few lessons and I believe two projects involved. The focus tonight is going to be on reading through the introductino section in MDN and following all of the link. It's a big article so i'm going to stick to finishing that up as my goal.
+
