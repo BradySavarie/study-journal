@@ -1,0 +1,1 @@
+Time to start setting up the mongoDB database for the little project based tutorial series im working through. The goal is to learn how to properly integrate mongoDB into an Express application using Mongoose.
