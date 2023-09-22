@@ -1,3 +1,4 @@
 Alright time to start the Express section of The Odin Project! This should be fun. I'm imagining it will be a long one since there are quite a few lessons and I believe two projects involved. The focus tonight is going to be on reading through the introductino section in MDN and following all of the link. It's a big article so i'm going to stick to finishing that up as my goal.
 
 The first express lesson is complete! It was all a review of what I have covered previously. I looked over all of the basic functionality of NodeJS/Express, re-read the application I built to make sure the concepts were all sticking. I think I have a good handle on everything that I have studied up until this point (of course once it's time to put it into practice i'm sure i'll find the knowledge gaps). Feeling pretty good, time to move on now to the next lesson which seems to be focused on templating engines and middleware.
+
