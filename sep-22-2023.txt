@@ -1,0 +1,1 @@
+Game plan: crank out an ugly but fully functional mini messaging board application. Not going to focus on how it looks at all. While my css skills have definitely improved by puttingalot of focus into making past small projects pretty, my development speed has definitely suffered. Trying to maintain focus this time around since I know it will not be a portfolio project at all.
