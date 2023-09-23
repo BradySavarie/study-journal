@@ -1,1 +1,3 @@
 Game plan: crank out an ugly but fully functional mini messaging board application. Not going to focus on how it looks at all. While my css skills have definitely improved by puttingalot of focus into making past small projects pretty, my development speed has definitely suffered. Trying to maintain focus this time around since I know it will not be a portfolio project at all.
+
+That wasn't very difficult haha, project complete. Only part I ran into issues with was the ejs syntax. Not the biggest fan of it right now, but perhaps its just because I dont' entirely understand why it works how it does yet. More practice may change my mind there.
