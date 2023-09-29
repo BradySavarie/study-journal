@@ -1,0 +1,1 @@
+Alright time to work on the library tutorial. Hoping to wrap it up tonight, we'll see how things go. I need to program the bookInstance delete functions and make all of the objects updateable. Going to get started now, i'll come back to the journal when progress has been made.
