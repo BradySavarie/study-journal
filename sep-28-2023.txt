@@ -1,1 +1,4 @@
 Alright time to work on the library tutorial. Hoping to wrap it up tonight, we'll see how things go. I need to program the bookInstance delete functions and make all of the objects updateable. Going to get started now, i'll come back to the journal when progress has been made.
+
+All done the mini project! That was alot of fun. I decided not to bother implementing updates for 2 of the models because I went through the process thoroughly for one of them, ran into a ton of issues, and solved it on my own. I feel comfortable now with how the whole process works and don't want to spend time going over it two more times just to operate on different schemas. I solved the problems and I can do it again, thats what matters. Moving on now with learning about deployment!
+
