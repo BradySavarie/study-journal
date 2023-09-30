@@ -1,0 +1,1 @@
+Working on the deployment section of th elibrary tutorial at the moment. There is a walkthrough that teaches all about how it works and what steps to take to actually get this particular project setup properly. Hopefully the knowledge will be easily transferable to other projects with slightly different configs.
