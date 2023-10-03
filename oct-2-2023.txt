@@ -1,0 +1,1 @@
+Alright getting a jump now on creating the inventory application project. I will be focusing on building out the structure of the project and then will start in on the models and routing from there.
