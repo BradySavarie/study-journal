@@ -1,0 +1,1 @@
+Tonight i'm planning on creating the effect instance routes and the empty controllers for them in the inventory app. Once that is done I can focus on making the corresponding models for the effects and effect instances. From there I will be able to decide on which other models to include (im thinking manufacturer and category).
