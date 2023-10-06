@@ -1,0 +1,1 @@
+Time to get a jump on the category and manufacturer models. Shouldn't be too time-consuming. Once that is ready i'm going to work on getting the remaining routes all sorted out. That should be enough manual work to last an hour or so im expecting. Controller functions will come afterwards which is where the fun begins.
