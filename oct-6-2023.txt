@@ -1,0 +1,1 @@
+So i'm all set to move forward with writing the controller functions now for the inventory project.
