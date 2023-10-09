@@ -1,3 +1,4 @@
 Yesterday ended up being a write-off pretty much. Bummer, I just ended up relaxing. I guess it was nice but no progress days feel bad. Going to try to make that up today by finishing as much of this application as possible, starting of course with the controllers.
 
 Making a ton of progress today, yay. So far i've written the populatedb script which uses all of the models to create items and insert them into the database automatically. I've also gotten my layout and index pages complete, along with the index controller. All I have to do now is go thorugh each controller and create the related view for it, then write the function that displays that view. Once I do that for each controller I will be complete the project. Not bad.
+
