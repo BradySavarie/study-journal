@@ -1,0 +1,1 @@
+Planning on completing all of the effect controller functions this afternoon. Had a bit of a hang up trying to debug the create post controller function last night but it's all sorted out now. I've been creating the views along the way of course to. Makes it easier to create them together as they rely on eachother and can be tested simultaneously.
