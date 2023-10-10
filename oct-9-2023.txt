@@ -1,1 +1,3 @@
 Starting up today with the effect delete post controller function. Once that is done I will have the update functions remaining, however I would like to move to the effect instance controllers first and catch up there so that I can test out the crud operations. I cannot test the delete yet without going into mongodb atlas and removing an effect instance manually. The effect delete is dependant on whether or not insances of the effect exist already.
+
+Made a ton of progress today! I'm nearly finished the whole application now actually, I just have to make the category controller functions and views.
