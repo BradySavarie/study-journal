@@ -1,3 +1,7 @@
 Yesterdays resume revamp was worth it for sure, I feel more scure after having put it together. I did a phone interview today at a local sign shop too which is pretty cool. They said they want to schedule an in-person interview soon. Hopefully they follow through with that and don't contact my employer to let them know i'm interviewing haha. Paranoid but this kind of fear is necessary when trying to grow in my career. If the worst case scenario happens than i'll just spam out resumes all day until I get a new job, and if it sucks i'll find a better one. No big deal.
 
 This afternoon i'm starting to learn about authentication. SHould be an interesting lesson. Getting into it now.
+
+Got through quite a bit of material. Learned a a bit about using passport and what strategies are. Then I practiced authenticating usernames and passwords using the local strategy. Not terribly difficult. I did find it confusing to use passport in general though because I had to configure some functions lreated to cookies and what not (so users can stay signed in) but dont entirely understand how the functions operate. There seems to be some magic happening behind the scenes that I don't understand. All good though, just got to use it a few times to see what kind of issues I run into. 
+
+Tomorrow I will be learning about securing information (passwords) using bcrypt. That will be the final part of the lesson.
