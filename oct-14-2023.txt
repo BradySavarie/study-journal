@@ -1,0 +1,1 @@
+Officially survived friday the 13th, celebrating by watching a mini-series on PassportJS. It is long enough to keep me occupied this evening. It should reinforce everything that i've learned about authentication so far i'm hoping. With the exception of bcrypt actually, but I understand how that works now after studying last night so that's all good.

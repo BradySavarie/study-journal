@@ -1,0 +1,3 @@
+Learning about bcrypt tonight! It is a firmware that is designed to secure passwords. This is the last part of the lesson that I am on.
+
+Cool so i've got an authenticated and secure test app running! So basically I created a super basic express app with a couple routes for login and sign up forms. I then used an authentication framework called Passport to help authenticate the users credentials and cache them so that the user stays logged in during their session. From there, I used the package bcrypt to hash the users password with is just a type on encryption that ensures the information stays private.
