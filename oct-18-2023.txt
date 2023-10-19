@@ -1,0 +1,1 @@
+Tonight I am going to study nconf and environemtn variables a little bit, and then I will take a good hard look over the next project which is a members only application. Focus will of course be all about authentication.
