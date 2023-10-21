@@ -1,0 +1,3 @@
+I am going to start by breaking this project up into chunks - I need a plan of attack before diving straight into it.
+
+First of all, this will be an MVC design pattern. The structure will pretty much be a mesh of the mini-message board, local library, and auth_practice projects that I have completed. 
