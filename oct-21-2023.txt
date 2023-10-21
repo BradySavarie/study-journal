@@ -1,0 +1,10 @@
+Okay i'm starting the project now! I will be creating the project skeleton today. Here is the steps I plan to take:
+
+1. Use express generator to create a boilerplate application
+2. Remove the excess code and make an MVC style directory
+3. Install all of the 3rd party packages that I anticipate needing
+4. Create an index router that redirects to the messageBoard router and displays the index view
+
+That should keep me busy today. I also anticipate needing a user and message model so if I have time I can create those as well.
+
+Alright so all of the steps above have been implemented and I still have some time so i'm going to create those models now and make a database to store them in. I will get that connected to the application and store the API key in an environment variable.
