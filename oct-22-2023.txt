@@ -1,0 +1,12 @@
+Alright so I accomplished all of yesterdays goals, time to lay out the next steps for the members-only project. I think it would make sense to approach this by first deciding which views I want this project to have so that I can work backwards from there and figure out what kind of http requests are going to need to be responded to. I'll try making a little list:
+
+- First view should be a login page
+- Login page should link to a register page
+- Once registered and logged in, a message board view should be displayed. The contents of this page will be dependant on the users membership status. Logout button should be available.
+- Message board should link to a member sign up page
+- If user is a member, message board should include a create new message form
+- If user is an admin, they should also be able to delete messages from the board
+
+Okay i'm pretty sure the above points take care of the main functionality that I want this project to have. Now the order in which I will implement things:
+
+Start with a register page to get a user into the database. Next create the login page and write all of the authentication logic. Once this is ready to go I should be set to create the message board view and the remaining logic to make it all work. That is the basic flow of how I will be writing this application. As for controllers, I expect to have one for users and one for messages.
