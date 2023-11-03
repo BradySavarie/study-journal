@@ -1,3 +1,5 @@
 Alright made a lot of progress last night with the app. The complexity really started ramping up actually. I created a user context to share user information throughout each component. I've also got more state being managed locally in the register and login components. In addition to that I have learned how to create jwt tokens and send them to the browser as a cookie.
 
 I'm going to start todays session by doing a recap on all of the code that has currently been written in this project to ensure I can explain everything that is going on clearly. Hopefully this helps with being able to write this quality of code myself in the future.
+
+Alright did alot of good work but ive been struggling alot with receiving a null user object for some reason. Going to have to hash that out some more tomorrow cause my brain i exploding trying to find the problem.
