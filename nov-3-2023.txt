@@ -1,0 +1,1 @@
+THe goal tonight is just to solve the problem that I ran into yesterday regarding the user object being null when the account page is refreshed. I had a really hard time figuring it out yesterday so I am expecting to get into a challenge today. 
