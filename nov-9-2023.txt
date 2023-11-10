@@ -1,0 +1,3 @@
+I ended up starting into the api section of the top briefly last night. Looks like it will be interesting - i'm basically learning it already as I make this project so that is nice. I will be looking at topics like different types of http requests, what the jamstack is, how cors works, etc. 
+
+Tonight though im going to focus on the single place page of the airbnb app. Getting started now.
