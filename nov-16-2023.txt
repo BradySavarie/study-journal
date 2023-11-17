@@ -1,0 +1,1 @@
+Starting up today with working on the registration page. I just want to send data to the api and save it in the database for the time being. Nothing too time consuming, i've got to be up early for that interview. Probably do the encryption as well while i'm at it.
