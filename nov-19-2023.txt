@@ -1,0 +1,1 @@
+I think I work good on tighter time frames or something! I was able to get all of the authentication logic taken care of yesterday while waiting on my sister to get ready. Didn't spend much time coding but made decent progress. The user data is now being sent to the browser as a token so I will be able to decide now how to use the data.
