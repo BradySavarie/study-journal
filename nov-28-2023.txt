@@ -1,0 +1,11 @@
+Taking it easy this afternoon, I think i'm just going to put together a plan for what the next steps are to finish the message board app. Aside from the styling there really isn't much left to do.
+
+Just about all of the remaining functionality relies on whether or not the user is a member (with exception to showing a blurred out message board component if the user is not signed in). The first thing that I can do is take care of the actually. I might be able to find a way to overlay a blur filter of some sort on the existing component if the user is not logged in. That is step 1.
+
+Step 2 will be to then add the isMember property to each user and set the default to no whenever a user object is created.
+
+Step 3 is to add a 'become member' button in the the nav when the user is logged in that brings the user to the become member page. The page has a single input that asks the user to solve the following riddle to become a member: 'what is a computers favourite snack?'. The answer will be microchips. If that word is submitted then the users status changes to member, otherwise a message tells the user they are incorrect.
+
+Step 4 is to have the messageboard component conditionally rendered the messages author name and time if the user is a member.
+
+The project can at this point be deployed. I should watch the video for the airbnb clone that covers deployment to help me get this right!
