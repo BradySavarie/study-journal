@@ -1,0 +1,1 @@
+Starting tonight by altering the message board component so that it renders properly based on whether a user is logged in or not. When not logged in the input to post messages is replaced with a box that tells the user to log in to post messages. The actual messages can still be viewed though so scratch the blur idea that I had last night.
