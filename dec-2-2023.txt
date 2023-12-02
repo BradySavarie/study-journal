@@ -1,1 +1,3 @@
 Okay in a coffee shop now about to complete this application! Let's goooooo.
+
+Just finished up the members only project. Pretty excited about having completed it. I have a pretty solid understanding of how it all works and was able to troubleshoot and write the application logic without using too many external resources. My confidence has definitely improved after putting this application together. Next up I need to figur eout how to deploy these fullstack projects. That may be a mini project in itself as deployment always seems to be a big hang up, but it will be nice to know that I can show this off to future employers and post it in TOP project submissions. Heck yea, another full-stack project down. Definitely a simple one but it's a big step.
