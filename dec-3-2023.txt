@@ -1,0 +1,1 @@
+I think the next step to take is going to be figuring out how to deploy these full-stack projects. So far I have two of them down but neither are actually hosted. I think it would best to get them online so that I can be confident that the next projects can be shown to employers if need be.
