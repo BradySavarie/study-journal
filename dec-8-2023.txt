@@ -1,0 +1,1 @@
+Tonight i'm going to be working through the lesson on API security. It seems to be heavily focused on JSON web tokens which is nice because i've already learned how to use them. Glad that I decided to give it a try and the last two projects instead of sticking with Passport.
