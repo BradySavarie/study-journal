@@ -1,1 +1,5 @@
 Today i'm going to be learning about the join tool, the intertwine tool (i think it is a tool as opposed to a technique), and how to expand appearances. These 3 functionalities should come in pretty handy, i'll write about them once i've actually learned how they all work.
+
+I feel like my learning pace has been pretty slow compared to my expectations. This course is taking awhile! I'm okay with it though as I am not in a race. My main concern is that the knowledge sinks in - I want to be able to know which tools to reach for when I am solving design problems rather than trying to hammer it out with the things that I know. An in depth understanding of this software is important.
+
+I read a little bit more of that book today too by the way. I am learning right now how to properly contrast text which will help me make better decisions when pairing different fonts with eachother. This was one of the learning goals that I set out to improve at because pairing fonts is something that I can use all the time at work.
