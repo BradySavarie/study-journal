@@ -1,0 +1,5 @@
+Last day of December already! This vacation has been pretty productive in terms of learning design. Last night I completed the layer styles section of the photoshop course and this morning I got through the cropping section. Learned some pretty basic stuff such as adding drop shadows and cropping/expanding images (using content-aware fill/generative expand). Nothing groundbreaking here quite yet but my comfort level with the software is increasing for sure.
+
+My next ability that I will be developing is selections and masking! This is a very practical one so i'm pretty hyped to start getting some technique built up for it. I imagine using it at work will be very helpful in many cases.
+
+So far i've learned how to use the rectangular and ellipe marque tools to make selections out of basic shapes. I also have learned how to create clipping masks. Both of these techniques are great ways to make simple selections. I'm going to be learning how to remove backgrounds now using the quick select tool now which is increasing the complexity and usability just a little bit.
